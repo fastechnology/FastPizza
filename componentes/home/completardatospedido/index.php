@@ -8,7 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require '../../navbarsetc/navbarlogueada.php' ?>
     <div class="login">
         <h2>Completa tus datos de pedido..</h2>
         <form action="insertardatos.php" method="POST">
