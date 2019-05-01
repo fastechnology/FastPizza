@@ -6,5 +6,7 @@ $email=$_POST['email'];
 $tipo=2;
 $sql=$conexion->query("INSERT into clientes (usuario_cliente,email_cliente,pass_cliente,tipo_user) values
  ('$user','$email','$pass',$tipo)");
-header("Location: ../../home/completardatospedido/index.php");
+ if($sql){
+echo "OK";
+ }
 ?>
