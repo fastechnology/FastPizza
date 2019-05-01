@@ -1,5 +1,5 @@
 <?php
-require 'https://github.com/fastechnology/FastPizza/blob/81cde2121a89c676408e88f8c6433a3806188e17/componentes/conexion.php';
+require '../../basededatos/conexion.php';
 $user=$_POST['user'];
 $pass=$_POST['pass'];
 $email=$_POST['email'];
