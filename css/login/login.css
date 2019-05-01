@@ -1,0 +1,23 @@
+.padre {
+  display: flex;
+  justify-content: center;
+}
+.hijo {
+  padding: 10px;
+  margin: 10px;
+}
+.login{
+        border-radius: 20px;
+        width: 35%;
+        margin: 1rem;
+        margin-left: 31%;
+        padding: 1rem;
+        border: 2px solid #ccc;
+}
+h2{
+    text-align: center;
+}
+#user,#pass{
+    background: transparent;
+    border: 1px solid red;
+}
