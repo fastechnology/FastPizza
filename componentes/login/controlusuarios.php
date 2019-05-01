@@ -17,6 +17,6 @@ if($tipo==1){
 if($tipo==2){
     session_start();
     $_SESSION['useractual']=$email;
-    header("Location: ../home/home/index.html");
+    header("Location: ../home/home/index.php");
 }
 }

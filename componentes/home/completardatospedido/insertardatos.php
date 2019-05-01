@@ -8,6 +8,6 @@ $telefono_cliente=$_POST['telefono'];
 $sql=$conexion->query("UPDATE clientes set nombre_cliente='$nombre_cliente', direccion_cliente='$direccion_cliente',
 telefono_cliente='$telefono_cliente' where email_cliente='$email' ");
 if($sql){
-    header("Location: ../home/index.html");
+    header("Location: ../home/index.php");
 }
 ?>
