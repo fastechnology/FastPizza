@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <form  name="FormRegister" method="POST" action="registro/controlregistro.php" >
+      <form  name="FormRegister" method="POST" action="componentes/login/registro/controlregistro.php" >
         <div class="form-group">
         <small id="emailHelp" class="form-text text-muted">Todos tus datos estan seguros..</small>
     <label for="emailR">Correo Electronico </label>
@@ -17,7 +17,7 @@
   </div>
   <div class="form-group">
     <label for="user">Nombre de usuario</label>
-    <input type="text" class="form-control" id="user" name="user" placeholder="Contraseña" required>
+    <input type="text" class="form-control" id="user" name="user" placeholder="Usuario" required>
   </div>
   <div class="form-group">
     <label for="pass1">Contraseña</label>

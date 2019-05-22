@@ -28,7 +28,7 @@ if($filas>0){
     header("Location: controlusuarios.php");
 }
 else{
-    header("Location: errorlogin.php");
+    header("Location: ../../errorlogin.php");
 }
 }
 

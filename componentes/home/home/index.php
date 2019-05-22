@@ -1,7 +1,3 @@
-<?php
-require ('../../navbar/index.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,14 +10,16 @@ require ('../../navbar/index.php');
 </head>
 
 <body>
-
+<?php
+require ('../../navbar/index.php');
+?>
  <header>
   <div class="textos">
    <h1 class="titulo">Star-Soft</h1>
    <h3 class="subtitulo">Dessarrollo Web Pizzeria </h3>
    <a href="pizzas.php" class="boton">Menú Pizzas</a>
   </div>
-  <div class="sesgoabajo"></div>
+  
  </header>
  <main>
   <section class="acerca-de">
@@ -34,7 +32,7 @@ require ('../../navbar/index.php');
    </div>
   </section>
   <section class="galeria">
-   <div class="sesgoarriba"></div>
+   
    <div class="imagenes"><img src="https://www.dondeir.com/wp-content/uploads/2017/03/buffet-de-pizzas-en-cdmx-como-todo-que-puedas-por-149-pesos-3-1024x767.jpg" alt=""></div>
    <div class="imagenes"><img src="https://cdn2.dineroenimagen.com/media/dinero/styles/gallerie/public/images/2019/03/pizzas-hamburguesas.jpg" alt=""></div>
    <div class="imagenes"><img src="https://www.animalgourmet.com/wp-content/uploads/2013/08/1024px-Supreme_pizza.jpg" alt=""> <div class="encima">
@@ -46,7 +44,7 @@ require ('../../navbar/index.php');
   </div>
 
    <div class="imagenes"><img src="https://cdn-images-1.medium.com/max/1600/1*RkW3ffEnb_8NjfkfTxfx-Q.jpeg" alt=""></div>
-   <div class="sesgoabajo"></div>
+   
   </section>
   
   <section class="miembros">
@@ -79,21 +77,10 @@ require ('../../navbar/index.php');
   </section>
   
   <section class="fondo">
-   <div class="sesgoarriba"></div>
-   <div class="contenedor">
-  <!--  <h2 class="titulo-patrocinadores">Desarrolladores</h2>
-    <h3 class="subtitulo-patrocinadores">Conoce algunos de nuestros patrocinadores</h3>
-    <div class="clientes">
-     <div class="cliente"><img src="imagenes/desarrollo.png" alt=""></div>
-     <div class="cliente"><img src="imagenes/desarrollo.png" alt=""></div>
-     <div class="cliente"><img src="imagenes/desarrollo.png" alt=""></div>
-     <div class="cliente"><img src="imagenes/desarrollo.png" alt=""></div>
-    </div>
-    <h3 class="subtitulo-patrocinadores especial">............</h3>
-   </div>-->
-   <div class="sesgoabajo-unico"></div>
+
   </section>
   
  </main>
 </body>
 </html>
+
