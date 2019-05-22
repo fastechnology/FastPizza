@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <form  name="FormRegister" method="POST" action="registro/registrouser.php" >
+      <form  name="FormRegister" method="POST" action="registro/controlregistro.php" >
         <div class="form-group">
         <small id="emailHelp" class="form-text text-muted">Todos tus datos estan seguros..</small>
     <label for="emailR">Correo Electronico </label>
