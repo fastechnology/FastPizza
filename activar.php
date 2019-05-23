@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/login/login.css">
+    <link rel="stylesheet" href="css/login/login.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/themes/default.min.css"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/themes/semantic.min.css"/>
@@ -50,11 +50,11 @@
     </div>
 </body>
 </html>
-<?php require 'registro/formularioregistrousuario.php' ?>
+<?php require 'componentes/login/registro/formularioregistrousuario.php' ?>
 
     <script>
 		function miFuncion() {
-			alertify.alert('Ups..: ',"Esta cuenta no ha sido activada, revisa tu correo electrónico para activarla.").set({transition:'zoom',message: 'Esta cuenta no ha sido activada, revisa tu correo electrónico para activarla. '}).show(); 
+			alertify.alert('Ups..: ',"Registro exitoso, revisa tu correo electrónico para activar tu cuenta.").set({transition:'zoom',message: 'Registro exitoso, revisa tu correo electrónico para activar tu cuenta. '}).show(); 
 		}
 		window.onload=miFuncion;
         </script>

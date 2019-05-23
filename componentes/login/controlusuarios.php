@@ -21,6 +21,6 @@ if($tipo==2 && $estado==1){
     header("Location: ../home/home/index.php");
 }
 if ($tipo==2 && $estado==0){
-        header("Location: activacionerror.php");
+        header("Location: ../../activacionerror.php");
     }
 }   
