@@ -11,13 +11,9 @@
       <div class="modal-body">
       <form  name="FormRegister" method="POST" action="componentes/login/registro/controlregistro.php" >
         <div class="form-group">
-        <small id="emailHelp" class="form-text text-muted">Todos tus datos estan seguros..</small>
+        <small id="" class="form-text text-muted">Todos tus datos estan seguros..</small>
     <label for="emailR">Correo Electronico </label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required>
-  </div>
-  <div class="form-group">
-    <label for="user">Nombre de usuario</label>
-    <input type="text" class="form-control" id="user" name="user" placeholder="Usuario" required>
+    <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@ejemplo.com" required>
   </div>
   <div class="form-group">
     <label for="pass1">Contraseña</label>
@@ -36,8 +32,10 @@
     </div>
   </div>
 </div>
+
 <script >
 function validform(){
+    var email=document.getElementById("email").value;
     var p1=document.getElementById("pass1").value;
     var p2=document.getElementById("pass2").value;
     var espacios = false;
@@ -46,6 +44,10 @@ while (!espacios && (cont < p1.length)) {
   if (p1.charAt(cont) == " ")
     espacios = true;
   cont++;
+}
+if(email.length==0 ){
+  alertify.error("El campo email no puede quedar vacio.");
+  return false;
 }
 if (espacios) {
   alertify.error("La contraseña no puede contener espacios en blanco");

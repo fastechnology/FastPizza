@@ -27,7 +27,7 @@
       </li>-->
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <a href="../../sesiones/cerrarsesion.php" class="btn btn-outline-success my-2 my-sm-0">Salir</a>
+      <a href="../../../sesiones/cerrarsesion.php" class="btn btn-outline-success my-2 my-sm-0">Salir</a>
     </form>
   </div>
 </nav>

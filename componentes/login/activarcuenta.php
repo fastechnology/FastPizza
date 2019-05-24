@@ -13,26 +13,29 @@
 </head>
 <body>
     <br>
-    <div class="login">
-        <h4>Inicia sesión para activar tu cuenta.</h4>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTZzBD90a3ted1H0qYV1xtJwdP9Ew0SFpGKRoEdusCeb7onbK"
-            class="d-inline-block align-top" alt="">
+    <div class="padre">
+    <div class="hijo">
+        <h5>Completa tus datos para activar tu cuenta.</h5>
         <form action="activar.php" method="POST">
             <label for="user">Email:</label>
             <div class="form-group">
-                <input type="email" class="form-control" name="user" id="user" required>
+                <input type="email" class="form-control" name="user" id="user" placeholder="ejemplo@ejemplo.com" required>
             </div>
-            <label for="pass">Contraseña:</label>
+            <label for="">Nombre completo:</label>
             <div class="form-group">
-                <input type="password" class="form-control" name="pass" id="pass" required>
+                <input type="text" class="form-control" name="name" id="name" required>
+            </div>
+            <label for="">Dirección:</label>
+            <div class="form-group">
+                <input type="text" class="form-control" name="dir" id="dir" placeholder="Ej. Calle, numero, colonia/barrio" required>
+            </div>
+            <label for="">Número de Telefono:</label>
+            <div class="form-group">
+                <input type="tel" class="form-control" name="tel" id="tel" required>
             </div>
             <br>
-            <div class="padre">
-                <div class="hijo">
                     <input type="submit" value="Activar" class="btn btn-outline-primary">
-                </div>
-                <div class="hijo">               
-                </div>
+                
             </div>
         </form>
     </div>
