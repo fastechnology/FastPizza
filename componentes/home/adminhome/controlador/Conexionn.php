@@ -4,8 +4,8 @@ class Conexionn {
     private function __construct(){
         try{
             self::$con = new PDO(
-                'mysql:charset=utf8mb4;host=bzxlwzvexbaiqu1sypi9-mysql.services.clever-cloud.com;port=3306;dbname=bzxlwzvexbaiqu1sypi9', 
-                'u1htrxt785hqk9gr', 'Od6JyCvE855NKM4JfVwv');
+                'mysql:charset=utf8mb4;host=bclaaawucbhptfb3nth1-mysql.services.clever-cloud.com;port=3306;dbname=bclaaawucbhptfb3nth1', 
+                'uw38l52oqjtgwx5m', 'owxPBGYDFzI2dtam3AXp');
             self::$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             self::$con->setAttribute(PDO::ATTR_PERSISTENT, false);    
         }catch (PDOException $e){
