@@ -9,10 +9,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/componentes/home/home/menu/index.php"><img src="https://cdn0.iconfinder.com/data/icons/user-interface-vol-5-4/66/2-512.png" width=40px; heigth=40px;>Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/home/menu/index.php"><img src="https://cdn0.iconfinder.com/data/icons/user-interface-vol-5-4/66/2-512.png" width=40px; heigth=40px;>Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/componentes/home/home/menu/pizzas.php"><img src="https://cdn0.iconfinder.com/data/icons/restaurant-53/64/Food-junk-pizza-fast_food-512.png" width=40px; heigth=40px;>Pizzas<span class="sr-only">(current)></span></a>
+        <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/home/menu/pizzas.php"><img src="https://cdn0.iconfinder.com/data/icons/restaurant-53/64/Food-junk-pizza-fast_food-512.png" width=40px; heigth=40px;>Pizzas<span class="sr-only">(current)></span></a>
       </li>
       <!--<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,7 +27,7 @@
       </li>-->
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <a class="nav-link" href="http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/componentes/sesiones/cerrarsesion.php" ><img src="https://www.pinclipart.com/picdir/middle/182-1821638_logout-icon-png-red-clipart.png" width=40px; heigth=40px;>Salir<span class="sr-only">(current)></span></a>
+      <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/sesiones/cerrarsesion.php" ><img src="https://www.pinclipart.com/picdir/middle/182-1821638_logout-icon-png-red-clipart.png" width=40px; heigth=40px;>Salir<span class="sr-only">(current)></span></a>
     </form>
   </div>
 </nav>

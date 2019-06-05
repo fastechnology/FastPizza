@@ -3,9 +3,9 @@ error_reporting(0);
 session_start();
 $session=$_SESSION['user'];
 if ($session==""){
-    header("Location: http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/");
+    header("Location: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/");
 }
 else{
- header("Location: http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/componentes/home/home/menu/menuv.php");   
+ header("Location: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/home/menu/menuv.php");   
 }
 ?>

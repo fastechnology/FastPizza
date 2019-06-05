@@ -44,7 +44,7 @@ $(document).on("submit", ".formulario_registro", function(event){
 
 
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/RegistroControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/RegistroControlador.php';
 
     $.ajax({
         type:'POST',
@@ -111,7 +111,7 @@ $(document).on("submit", ".formulario_pizzas", function(event){
         
     
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/RegPizzasControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/RegPizzasControlador.php';
 
     $.ajax({
         type:'POST',
@@ -178,7 +178,7 @@ $(document).on("submit", ".formulario_acceso", function(event){
         return false;   
     }
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/RegPizzaWsControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/RegPizzaWsControlador.php';
 
     $.ajax({
         type:'POST',
@@ -222,7 +222,7 @@ $(document).on("submit", ".AltaUsuario", function(event){
         }
     
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/AltaControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/AltaControlador.php';
 
     $.ajax({
         type:'POST',
@@ -283,7 +283,7 @@ $(document).on("submit", ".EliminarUsuario", function(event){
         }
     
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/EliminarControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/EliminarControlador.php';
 
     $.ajax({
         type:'POST',
@@ -346,7 +346,7 @@ $(document).on("submit", ".EliminarPizza", function(event){
         }
     
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/EliminarpizzaControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/EliminarpizzaControlador.php';
 
     $.ajax({
         type:'POST',
@@ -407,7 +407,7 @@ $(document).on("submit", "#EliminarVenta", function(event){
         }
     
     $("#msg_error").hide();
-    var url_php = 'http://http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/FastPizza/componentes/home/adminhome/controlador/EliminarventaControlador.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/EliminarventaControlador.php';
 
     $.ajax({
         type:'POST',
