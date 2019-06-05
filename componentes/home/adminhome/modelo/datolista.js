@@ -308,7 +308,7 @@ var listar2= function(){
     },"destroy":true,
         "ajax":{
             "method":"POST",
-            "url":"../controlador/ControladorPizza.php"
+            "url":"../controlador/ControladorPIzza.php"
         },
         "columns":[
 
