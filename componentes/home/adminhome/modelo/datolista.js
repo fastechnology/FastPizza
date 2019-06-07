@@ -311,7 +311,7 @@ var listar2= function(){
             "url":"../controlador/ControladorPizza.php"
         },
         "columns":[
-
+            {"data" : "idpizza"}, 
             {"data" : "codPizza"},
             {"data" : "tipo"},
             {"data" : "ingredientes"},
@@ -341,7 +341,10 @@ var opc_editarpizza= function(tbody,table){
     $(tbody).on("click","button.editarpizza", function () {
         var data = table.row( $(this).parents("tr")).data();
       // console.log(data);
-        var codPizza=$("#codPizza1").val(data.codPizza),
+
+        var 
+            idpizza=$("idpizza").val(data.idpizza),
+            codPizza=$("#codPizza1").val(data.codPizza),
             nombrep=$("#nombrep1").val(data.tipo),
             ingredientes=$("#ingredientes1").val(data.ingredientes),
             tamano=$("#tamano1").val(data.tamano),

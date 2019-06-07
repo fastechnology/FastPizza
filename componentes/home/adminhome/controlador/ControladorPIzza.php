@@ -5,7 +5,7 @@
  
 //$arreglo=[];
 $un=1;
-$query="SELECT * FROM pizza  ORDER BY codPizza desc;";
+$query="SELECT * FROM pizza  ORDER BY idpizza desc;";
 $resultado2 = $con -> prepare($query);
 	//$resultado2->bindParam(':ti_user',$un,PDO::PARAM_INT);
     $resultado2->execute();
