@@ -450,7 +450,7 @@
             <div id="msg_full" align="center" class="alert alert-success form-control text-center form-group" role="alert" style="display: none"></div>
 
 
-            <form action="POST" class="formulario_pizzas">
+            <form method="POST" action="addpizza.php" class="formulario_pizzas">
               <div class="form-group">
                 <div class="row">
                   <div class="col-md-12">
