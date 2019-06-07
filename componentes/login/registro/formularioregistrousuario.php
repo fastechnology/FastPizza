@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-      <form action="componentes/login/registro/registro.php"  name="FormRegister" method="POST">
+      <form action="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/login/registro/registr.php"  name="FormRegister" method="POST">
         <div class="form-group row">
       <div class="col-sm-6">
       <small id="" class="form-text text-muted">Todos tus datos estan seguros..</small>
