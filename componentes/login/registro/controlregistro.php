@@ -1,24 +1,4 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-require '../../basededatos/conexion.php';
-require 'mailer/Exception.php';
-require 'mailer/PHPMailer.php';
-require 'mailer/SMTP.php';
-
-$email=$_POST['email'];
-$pass=$_POST['pass2'];
-$tipo=2;
-$nombre=$_POST['name'];
-$direccion=$_POST['direccion'];
-$phone=$_POST['phone'];
-$activacion=1;
-
-echo $email;
-echo $pass;
-echo $nombre;
-echo $direccion;
-echo $phone;
 /*
 $sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
     $filas=$sql->num_rows;
@@ -61,4 +41,4 @@ header("Location: ../../../index.php");
 else { 
     echo "No se ha podido conectar con el servidor, ".'<a href="../../../index.php">Reintentar</a>';   }
     ?>
-    */
+    */?>
