@@ -333,7 +333,7 @@ $(document).on("submit", ".EliminarUsuario", function(event){
 
 // eliminar pizza
 
-$(document).on("submit", ".deletepizza", function(event){
+$(document).on("submit", ".EliminarPizza", function(event){
     event.preventDefault();
     var $form = $(this);
   

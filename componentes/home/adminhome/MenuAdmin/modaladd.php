@@ -611,7 +611,7 @@
   modal eliminar pizzza
 -->
 <div>
-  <form class="EliminarPizza" action="POST">
+  <form class="EliminarPizza" id="EliminarPizza" action="POST">
 
     <input type="hidden" id="eliminarpizza" name="eliminarpizza" value="0">
     <!--<input type="hidden" id="opcion" name="opcion" value="eliminar">
