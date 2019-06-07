@@ -311,7 +311,7 @@ var listar2= function(){
             "url":"../controlador/ControladorPizza.php"
         },
         "columns":[
-            {"data" : "idpizza"}, 
+          
             {"data" : "codPizza"},
             {"data" : "tipo"},
             {"data" : "ingredientes"},
@@ -332,7 +332,7 @@ var opc_eliminarpizza= function(tbody,table){
     $(tbody).on("click","button.eliminarpizza", function () {
         var data = table.row( $(this).parents("tr")).data();
          console.log(data);
-        var eliminarpizza=$(".EliminarPizza #eliminarpizza").val(data.codPizza);
+        var eliminarpizza=$(".EliminarPizza #eliminarpizza").val(data.idpizza);
     });
 }
 
