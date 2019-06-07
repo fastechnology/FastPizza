@@ -45,6 +45,6 @@ require_once '../navar/head.php';
 		</div>		
     </div>
     
-    <?php include_once './navar/footer.php'; ?>
-    <script src="./modelo/datolista.js"></script>
-    <script src="./modelo/UsuarioDao.js"></script>
+    <?php include_once '../navar/footer.php'; ?>
+    <script src="../modelo/datolista.js"></script>
+    <script src="../modelo/UsuarioDao.js"></script>
