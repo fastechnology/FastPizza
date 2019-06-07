@@ -1,6 +1,6 @@
 <?php
- //require '../controlador/Conne.php';
- require_once 'Conne.php';
+ require '../controlador/Conne.php';
+// require_once 'Conne.php';
  //require_once '../navar/head.php';
  
 //$arreglo=[];
