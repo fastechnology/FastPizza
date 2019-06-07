@@ -333,7 +333,7 @@ $(document).on("submit", ".EliminarUsuario", function(event){
 
 // eliminar pizza
 
-$(document).on("submit", ".EliminarPizza", function(event){
+$(document).on("submit", ".deletepizza", function(event){
     event.preventDefault();
     var $form = $(this);
   
@@ -375,8 +375,8 @@ $(document).on("submit", ".EliminarPizza", function(event){
        // $('input').val("");
         $('select').val("");
         //$('.addpersona').modal('hide');
-        $("#modaleliminarpizza .close").click();
-        $ ('#modaleliminarpizza'). Modal ('hide');
+       // $("#modaleliminarpizza .close").click();
+        //$ ('#modaleliminarpizza'). Modal ('hide');
        // $ ('#addpersona'). modal (). hide (); 
         //onSubmit="this.reset()"
         //$('#addpersona').hide();

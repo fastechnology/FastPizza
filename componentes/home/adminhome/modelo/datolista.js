@@ -331,7 +331,7 @@ var listar2= function(){
 var opc_eliminarpizza= function(tbody,table){
     $(tbody).on("click","button.eliminarpizza", function () {
         var data = table.row( $(this).parents("tr")).data();
-         //console.log(data);
+         console.log(data);
         var eliminarpizza=$(".EliminarPizza #eliminarpizza").val(data.codPizza);
     });
 }

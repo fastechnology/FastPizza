@@ -5,7 +5,7 @@ require 'Conne.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	header("Content-Type: application/json");
 	$array_devolver=[];
-	$eliminarpizza= ($_POST['eliminarpizza']);
+	$eliminarpizza= $_POST['eliminarpizza'];
             $query = "DELETE  FROM pizza WHERE codPizza ='$eliminarpizza";
             $nusuario = $con->prepare($query);
             $nusuario->bindParam(':codEliminar',$eliminarpizza,PDO::PARAM_INT);

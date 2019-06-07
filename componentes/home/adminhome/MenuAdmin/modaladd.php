@@ -632,7 +632,7 @@
             <!-- <input type="submit" class="btn btn-success"  id="EliUsuariobtn" data-dismiss="modal" name="EliUsuariobtn" value="Aceptar">  
             <input type="submit" class="btn btn-danger"  data-dismiss="modal" value="Cancelar"> 
             -->
-            <button type="submit" class="btn btn-success">Aceptar</button>
+            <button type="submit" class="btn btn-success" id="deletepizza">Aceptar</button>
             <button type="submit" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
 
 
