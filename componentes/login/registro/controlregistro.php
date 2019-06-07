@@ -20,7 +20,7 @@ $sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
         header("Location: ../errorregistro.php");
     }
     else{
-        $sql2=$conexion->query("INSERT into clientes (nombre_cliente,direccion_cliente,telefono_cliente,email_cliente,pass_cliente,tipo_user,activacion) values ('$nombre','$direccion',$phone,'$email','$pass',$tipo,$activacion)");
+        $sql2=$conexion->query("INSERT into clientes values ('$nombre','$direccion',$phone,'$email','$pass',$tipo,$activacion)");
 if($sql2){
     $mail = new PHPMailer(true);
 try {
