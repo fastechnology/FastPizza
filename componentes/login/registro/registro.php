@@ -14,5 +14,12 @@ $direccion=$_POST['direccion'];
 $phone=$_POST['phone'];
 $activacion=1;
 
-echo $nombre;
+$sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
+    $filas=$sql->num_rows;
+    if($filas>0){
+        header("Location: ../errorregistro.php");
+    }
+    else{
+        echo "hola";
+    }
 ?>
