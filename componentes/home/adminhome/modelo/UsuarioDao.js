@@ -141,8 +141,8 @@ $(document).on("submit", ".formulario_pizzas", function(event){
         $('input').val("");
         $('select').val("");
         //$('.addpersona').modal('hide');
-        $("#addpizzas .close").click();
-        $ ('#addpizzas'). Modal ('hide');
+        //$("#addpizzas .close").click();
+        //$ ('#addpizzas'). Modal ('hide');
        // $ ('#addpersona'). modal (). hide (); 
         //onSubmit="this.reset()"
         //$('#addpersona').hide();
@@ -179,7 +179,7 @@ $(document).on("submit", ".formulario_acceso", function(event){
         return false;   
     }
     $("#msg_error").hide();
-    var url_php = '../controlador/RegPizzaWsControlador.php';
+    var url_php = '../controlador/RegPizzasControlador.php';
 
     $.ajax({
         type:'POST',
