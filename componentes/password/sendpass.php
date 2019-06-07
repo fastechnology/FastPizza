@@ -22,13 +22,13 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'fastechnology99@gmail.com';                     // SMTP username
-    $mail->Password   = 'Tecnologia2019';                               // SMTP password
+    $mail->Username   = 'besiddes1@gmail.com';                     // SMTP username
+    $mail->Password   = 'Besiddes97';                               // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('fastechnology99@gmail.com', 'Star-Soft');
+    $mail->setFrom('besiddes1@gmail.com', 'Star-Soft');
     $mail->addAddress($email);     // Add a recipient
 
     // Attachments
@@ -38,8 +38,7 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft: Recuperacion contraseña.';
-    $mail->Body    = 'Tus datos para iniciar sesion en: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/ 
-    son los siguientes: '. 'Email: ' . $email . 'Contraseña: ' . $pass;
+    $mail->Body    = 'Tus datos para iniciar sesion en: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/ son los siguientes:  Email:  '$email'  Contraseña:  '$pass';
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
