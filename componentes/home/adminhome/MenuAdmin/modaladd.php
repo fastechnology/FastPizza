@@ -492,10 +492,11 @@
                         <div class="form-group">
                           <label>Precio: </label>
                           <input type="number" name="precio" id="precio" class="form-control" autofocus placeholder="Precio" required require title="Ingresa el costo de la pizza" min="85" max="300">
-
                         </div>
-
-
+                        <div class="form-group">
+                          <label>Imagén: </label>
+                          <input type="text" name="img" id="img" class="form-control" autofocus placeholder="Url-Image" required require title="Ingresa url-imagen de la pizza" min="85" max="300">
+                        </div>
                       </div>
                     </div>
                   </div>

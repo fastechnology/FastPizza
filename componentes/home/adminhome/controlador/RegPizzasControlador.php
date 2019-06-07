@@ -10,6 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$tamano= $_POST['tamano'];
 	$porcion= $_POST['porcion'];
 	$precio= $_POST['precio'];
+	$img=$_POST['img'];
 	
 
 	//comprobar si existe el usuario
@@ -17,7 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$resultado = $con -> prepare($query);
     $resultado->bindParam(':nombrep',$nombrep,PDO::PARAM_STR);
     $resultado->bindParam(':tamano',$tamano,PDO::PARAM_STR);
-    $resultado->bindParam(':porcion',$porcion,PDO::PARAM_INT);
+	$resultado->bindParam(':porcion',$porcion,PDO::PARAM_INT);
+	$resultado->bindParam(':img',$img,PDO::PARAM_STR);
 	$resultado->execute();
 
 	$query2=" SELECT * FROM PIZZA WHERE codPizza =:codPizza LIMIT 1";
@@ -34,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		}
 		else{
 	
-	$query="INSERT INTO pizza (codPizza, tipo, ingredientes, tamano, porciones, precio) VALUES ('$codPizza', '$nombrep', '$ingredientes','$tamano' ,'$porcion', '$precio')";
+	$query="INSERT INTO pizza (codPizza, tipo, ingredientes, tamano, porciones, precio,img) VALUES ('$codPizza', '$nombrep', '$ingredientes','$tamano' ,'$porcion', '$precio','$img')";
 
 	$nusuario = $con->prepare($query);
 	/*$nusuario -> bindParam(':codPizza', $codPizza, PDO::PARAM_STR);
@@ -49,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
  			$user_id = $con->lastInsertId();
              $_SESSION['id'] = (int) $user_id;
-             $array_devolver['redirect'] = 'http://localhost:8080/FastPizza/componentes/home/adminhome/MenuAdmin/listaPizza.php';
+             $array_devolver['redirect'] = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaPizza.php';
 		
 			 $array_devolver['full3']=true;
 			 $array_devolver['is_login3'] = true;
