@@ -1,4 +1,3 @@
-prueba <a href="www.google.com">Ir</a>
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
