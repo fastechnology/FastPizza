@@ -1,6 +1,4 @@
 <?php
-
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require '../../basededatos/conexion.php';
@@ -16,6 +14,12 @@ $direccion=$_POST['direccion'];
 $phone=$_POST['phone'];
 $activacion=1;
 
+echo $email;
+echo $pass;
+echo $nombre;
+echo $direccion;
+echo $phone;
+/*
 $sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
     $filas=$sql->num_rows;
     if($filas>0){
@@ -57,3 +61,4 @@ header("Location: ../../../index.php");
 else { 
     echo "No se ha podido conectar con el servidor, ".'<a href="../../../index.php">Reintentar</a>';   }
     ?>
+    */
