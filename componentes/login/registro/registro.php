@@ -12,7 +12,7 @@ $tipo=2;
 $nombre=$_POST['name'];
 $direccion=$_POST['direccion'];
 $phone=$_POST['phone'];
-$activacion=1;
+$activacion=0;
 
 $sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
     $filas=$sql->num_rows;
