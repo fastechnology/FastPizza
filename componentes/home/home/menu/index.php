@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
- <?php require '../../../sesiones/sesionhome.php'; ?>
+ 
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="../../../../css/home.css">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
