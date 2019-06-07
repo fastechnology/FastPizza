@@ -41,7 +41,7 @@ try {
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft Registro.';
     $mail->Body    = 'Te haz registrado exitosamente en Star-Soft. Tus datos estan seguros con nosotros :D. Tus datos para iniciar 
-    sesion son: Email: $email y Contraseña: $pass';
+    sesion son:' 'Email :' . $email . 'y' 'Contraseña :' .$pass;
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
