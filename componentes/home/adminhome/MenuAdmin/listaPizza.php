@@ -34,6 +34,7 @@ include '../adminhome.php';
                             <th>Tamaño</th>	
                             <th>Porciones</th>	
                             <th>Precio</th>
+                            <th>imagen</th>
                             <th>Opcion</th>	
            
               											

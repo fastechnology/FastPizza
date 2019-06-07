@@ -318,6 +318,7 @@ var listar2= function(){
             {"data" : "tamano"},
             {"data" : "porciones"},
             {"data" : "precio"},
+            {"data" : "img"},
          {"defaultContent":"<button type='button' class='editarpizza btn btn-primary 'data-toggle='modal' data-target='#updatepizza'><i class='fa fa-pencil-square-o'></i></button>	  <button type='button' class='eliminarpizza btn btn-danger' data-toggle='modal' data-target='#modaleliminarpizza' ><i class='fa fa-trash-o'></i></button>"}
        
         ]
