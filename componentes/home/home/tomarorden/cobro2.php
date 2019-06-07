@@ -1,4 +1,5 @@
 <meta charset="UTF-8">
+<?php session_start(); if($_SESSION['user']!=""){ ?>
 <?php
 include '../../../basededatos/conexion.php';
 include '../../../sesiones/datosuser.php';
@@ -44,3 +45,7 @@ echo "<br>______________________";
 <a href="#" class="btn btn-outline-danger btn-responsive btninter" >Enviar ticket de compra a tu correo electronico</a>
 <br>
 <a href="finalizar.php" class="btn btn-outline-success btn-responsive btninter" >Terminar</a>
+<?php }
+        else{
+            header("Location: ../../../../index.php");
+        }
