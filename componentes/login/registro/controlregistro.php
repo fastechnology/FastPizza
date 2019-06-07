@@ -47,7 +47,8 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft Registro.';
-    $mail->Body    = 'Te haz registrado exitosamente en Star-Soft. Tus datos estan seguros con nosotros :D. Tus datos para iniciar sesion son: Email: '$email' y Contraseña: '$pass'';
+    $mail->Body    = 'Gracias por registrarte. Tus datos para iniciar sesion en: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/ 
+    son los siguientes: '. 'Email: ' . $email . 'Contraseña: ' . $pass;
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
