@@ -305,7 +305,7 @@ var listar2= function(){
     var table= $("#dt_pizza").DataTable({
         "language": {
       "url": "//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json"
-    },"destroy":true,
+    },
         "ajax":{
             "method":"POST",
             "url":"../controlador/ControladorPizza.php"
