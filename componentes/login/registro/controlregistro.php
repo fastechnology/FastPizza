@@ -47,13 +47,13 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft Registro.';
-    $mail->Body    = 'Gracias por registrarte. Tus datos para iniciar sesion en: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/ 
-    son los siguientes: '. 'Email: ' . $email . 'Contraseña: ' . $pass;
+    $mail->Body    = 'Gracias por registrarte';
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 header("Location: ../../../index.php");
-} 
+}
+else { 
     echo "No se ha podido conectar con el servidor, ".'<a href="../../../index.php">Reintentar</a>';   }
     ?>

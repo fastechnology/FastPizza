@@ -7,7 +7,6 @@ require '../login/registro/mailer/PHPMailer.php';
 require '../login/registro/mailer/SMTP.php';
 $email=$_POST['email'];
 $sql=$conexion->query("SELECT pass_cliente from clientes where (email_cliente='$email') ");
-$filas=$sql->num_rows;
 if($sql){
 while($fila=$sql->fetch_assoc()){
     $pass=$fila['pass_cliente'];
