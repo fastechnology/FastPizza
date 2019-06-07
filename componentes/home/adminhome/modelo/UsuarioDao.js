@@ -376,7 +376,7 @@ $(document).on("submit", ".EliminarPizza", function(event){
         $('select').val("");
         //$('.addpersona').modal('hide');
         $("#modaleliminarpizza .close").click();
-       // $ ('#addpersona'). Modal ('hide');
+        $ ('#modaleliminarpizza'). Modal ('hide');
        // $ ('#addpersona'). modal (). hide (); 
         //onSubmit="this.reset()"
         //$('#addpersona').hide();
