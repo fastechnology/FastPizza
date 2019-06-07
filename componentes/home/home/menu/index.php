@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
  <meta charset="UTF-8">
+ <?php require '../../../sesiones/sesionhome.php'; ?>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="../../../../css/home.css">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title></title>
 </head>
-
 <body>
 <?php
 require ('../../../navbar/index.php');
@@ -19,13 +18,12 @@ require ('../../../navbar/index.php');
    <h3 class="subtitulo">Dessarrollo Web Pizzeria </h3>
    <a href="pizzas.php" class="boton">Menú Pizzas</a>
   </div>
-  
  </header>
  <main>
   <section class="acerca-de">
    <div class="contenedor">
     <h2 class="sobre-nosotros">Sobre Nosotros</h2><hr>
-    
+
     <h3 class="slogan">Star-Soft</h3>
     <p class="parrafo">La Pizzería *****, es considerada la mejor de la ciudad, gracias a que su preparación que es muy meticulosa 
     y su sabor increíble; en el proceso de Elaboración, está el secreto nuestro, tenemos creaciones propias de pizzas que solo encontrará 

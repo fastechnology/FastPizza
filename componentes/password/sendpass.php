@@ -8,9 +8,10 @@ require '../login/registro/mailer/PHPMailer.php';
 require '../login/registro/mailer/SMTP.php';
 
 $email=$_POST['email'];
-$sql=$conexion->query("SELECT pass_cliente from clientes where (email_cliente='$email') ");
+$sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
 $filas=$sql->num_rows;
-if($sql){
+if($filas>0){
+    $sql2=$conexion->query("SELECT pass_cliente from clientes where (email_cliente='$email') ");
 while($fila=$sql->fetch_assoc()){
     $pass=$fila['pass_cliente'];
 }
@@ -37,11 +38,14 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft: Recuperacion contraseña.';
-    $mail->Body    = 'Tus datos para iniciar sesion en: http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/ 
+    $mail->Body    = 'Tus datos para iniciar sesion en: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/ 
     son los siguientes: '. 'Email: ' . $email . 'Contraseña: ' . $pass;
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-header("Location: http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/");
+header("Location: ../../index.php");
+}
+else{
+    header("Location: error.php");
 }

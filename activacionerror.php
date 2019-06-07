@@ -21,12 +21,13 @@
     <title>Pizzeria: Login</title>
 </head>
 <body>
-    <br>
-    <div class="login">
-        <h2>Inicio de Sesión</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTZzBD90a3ted1H0qYV1xtJwdP9Ew0SFpGKRoEdusCeb7onbK"
+<br>
+    <div class="padre">
+    <div class="hijo">
+    <h2>Inicio de Sesión</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTZzBD90a3ted1H0qYV1xtJwdP9Ew0SFpGKRoEdusCeb7onbK"
             class="d-inline-block align-top" alt="">
-        <form action="controllogin.php" method="POST">
+        <form action="componentes/login/controllogin.php" method="POST">
             <label for="user">Email:</label>
             <div class="form-group">
                 <input type="email" class="form-control" name="user" id="user" required>
@@ -36,17 +37,13 @@
                 <input type="password" class="form-control" name="pass" id="pass" required>
             </div>
             <br>
-            <div class="padre">
-                <div class="hijo">
                     <input type="submit" value="Ingresar" class="btn btn-outline-primary">
-                </div>
-                <div class="hijo">
-                <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#ModalRegistro">
+                <button type="button" id="cancel" class="btn btn-outline-danger" data-toggle="modal" data-target="#ModalRegistro">
 	Registrate
-</button>
-                </div>
-            </div>
+</button>                
         </form>
+        <footer><a href="">¿Olvidaste tu contraseña?</a></footer>
+        </div>
     </div>
 </body>
 </html>

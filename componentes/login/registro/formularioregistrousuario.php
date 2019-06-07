@@ -9,27 +9,38 @@
         </button>
       </div>
       <div class="modal-body">
-      <form  name="FormRegister" method="POST" action="componentes/login/registro/controlregistro.php" >
-        <div class="form-group">
-        <small id="" class="form-text text-muted">Todos tus datos estan seguros..</small>
+      <form  name="FormRegister" method="POST" action="http://localhost/fastpizza/componentes/login/registro/controlregistro.php" >
+        <div class="form-group row">
+      <div class="col-sm-6">
+      <small id="" class="form-text text-muted">Todos tus datos estan seguros..</small>
     <label for="emailR">Correo Electronico </label>
     <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@ejemplo.com" required>
   </div>
-  <div class="form-group">
+  <div class="col-sm-6">
     <label for="pass1">Contraseña</label>
     <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Contraseña" required>
-  </div>
-  
-  <div class="form-group">
     <input type="password" class="form-control" id="pass2" name="pass2" placeholder="Confirmar contraseña" required>
   </div>
+  <div class="col-sm-6">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre verdadero :)" required>
+  </div>
+  <div class="col-sm-6">
+    <label for="direccion">Dirección:</label>
+    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ej. Calle, numero, colonia/barrio" required>
+  </div>
+  <div class="col-sm-6">
+    <label for="telefono">Número de teléfono:</label>
+    <input type="number" class="form-control" id="phone" name="phone" placeholder="Ej. 9531522689" required>
+  </div>
+  <div class="col-sm-6">
   <a href="javascript:validform()" class="btn btn-outline-success">Registrar</a>
         </form>
-      </div>
-      <div class="modal-footer">
         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
       </div>
+      </div>
     </div>
+  </div>
   </div>
 </div>
 
@@ -44,10 +55,6 @@ while (!espacios && (cont < p1.length)) {
   if (p1.charAt(cont) == " ")
     espacios = true;
   cont++;
-}
-if(email.length==0 ){
-  alertify.error("El campo email no puede quedar vacio.");
-  return false;
 }
 if (espacios) {
   alertify.error("La contraseña no puede contener espacios en blanco");

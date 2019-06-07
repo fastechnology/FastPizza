@@ -1,26 +1,29 @@
 <?php
-require '../../basededatos/conexion.php';
+
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+require '../../basededatos/conexion.php';
 require 'mailer/Exception.php';
 require 'mailer/PHPMailer.php';
 require 'mailer/SMTP.php';
 
 $email=$_POST['email'];
-$pass=$_POST['pass1'];
+$pass=$_POST['pass2'];
 $tipo=2;
+$nombre=$_POST['name'];
+$direccion=$_POST['direccion'];
+$phone=$_POST['phone'];
+$activacion=1;
 
-
-$sql=$conexion->query("SELECT tipo_user from clientes where (email_cliente='$email') ");
+$sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
     $filas=$sql->num_rows;
     if($filas>0){
         header("Location: ../errorregistro.php");
     }
     else{
-$sql=$conexion->query("INSERT into clientes (email_cliente,pass_cliente,tipo_user) values
-('$email','$pass',$tipo)");
-if($sql){
+        $sql2=$conexion->query("INSERT into clientes values (null,'$nombre','$direccion',$phone,'$email','$pass',$tipo,$activacion)");
+if($sql2){
     $mail = new PHPMailer(true);
 try {
     //Server settings
@@ -44,14 +47,13 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft Registro.';
-    $mail->Body    = 'Te haz registrado exitosamente en Star-Soft. Ahora solo queda activar tu cuenta haciendo click
-    en el siguiente enlace http://localhost/fastpizza/componentes/login/activarcuenta.php';
-
+    $mail->Body    = 'Te haz registrado exitosamente en Star-Soft. Tus datos estan seguros con nosotros :D. Tus datos para iniciar 
+    sesion son: Email: $email y Contraseña: $pass';
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-header("Location: ../../../activar.php");
+header("Location: ../../../index.php");
 } 
-    }
+    echo "No se ha podido conectar con el servidor, ".'<a href="../../../index.php">Reintentar</a>';   }
     ?>

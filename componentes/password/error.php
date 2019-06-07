@@ -18,7 +18,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
-    <title>Pizzeria: Login</title>
+    <title>Recuperación</title>
 </head>
 <body>
     <br>
@@ -30,11 +30,9 @@
             <div class="form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="example@example.com" required>
             </div>
-            <br>
-                    <input type="submit" value="Recuperar" class="btn btn-outline-primary">   
-                    <button type="button" id="cancel" class="btn btn-outline-danger" data-toggle="modal" data-target="#ModalRegistro">
-	Registrate
-</button>                      
+                    <input type="submit" value="Recuperar" class="btn btn-outline-primary">
+                    <a href="../../index.php" class="btn btn-outline-danger">Regresar</a>
+                    <footer><a href="" data-toggle="modal" data-target="#ModalRegistro">¿Eres nuevo?</a></footer>              
         </form>
         </div>
     </div>

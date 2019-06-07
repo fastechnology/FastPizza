@@ -1,0 +1,108 @@
+.container{ 
+    max-width: 1000px;
+    display: flex;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-body{
+    margin: 15px;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+}
+.card-body .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.card-body .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.card-body:hover .imgBx img
+{
+    opacity: 0; 
+    
+} 
+.card-body .content
+{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 40px;
+    background: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.card-body:hover .content
+{
+    width: 100%;
+    height: 100%;
+    bottom:0;
+    left: 0;
+}
+.card-body .content h4
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.card-body .content p
+{
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+}
+.card-body:hover .content p
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+.card-body .content select
+{
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+}
+.card-body:hover .content select
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+.card-body .content input
+{
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+}
+.card-body:hover .content input
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+.card-body .content button
+{
+    opacity: 0;
+    transition: 0.5s;
+}
+.card-body:hover .content button
+{
+    opacity: 1;
+    transition-delay: 0.7s;
+}

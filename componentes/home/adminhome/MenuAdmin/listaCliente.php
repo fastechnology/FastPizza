@@ -1,3 +1,4 @@
+<title>Clientes</title>
 <?php 
  require_once '../navar/head.php';
 include 'modaladd.php';
