@@ -8,7 +8,7 @@ require '../login/registro/mailer/SMTP.php';
 $email=$_POST['email'];
 $sql=$conexion->query("SELECT pass_cliente from clientes where (email_cliente='$email') ");
 $filas=$sql->num_rows;
-if($sql){
+if($filas>0){
 while($fila=$sql->fetch_assoc()){
     $pass=$fila['pass_cliente'];
 }
@@ -38,5 +38,8 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-header("Location: http://app-89ebffe6-07c2-4e7e-8eb3-00a845019f47.cleverapps.io/");
+
+}
+else{
+    echo "No estas";
 }
