@@ -1,13 +1,10 @@
 <?php
-
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require '../../basededatos/conexion.php';
 require 'mailer/Exception.php';
 require 'mailer/PHPMailer.php';
 require 'mailer/SMTP.php';
-
 $email=$_POST['email'];
 $pass=$_POST['pass2'];
 $tipo=2;
@@ -15,7 +12,6 @@ $nombre=$_POST['name'];
 $direccion=$_POST['direccion'];
 $phone=$_POST['phone'];
 $activacion=1;
-
 $sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
     $filas=$sql->num_rows;
     if($filas>0){
@@ -35,25 +31,22 @@ try {
     $mail->Password   = 'Tecnologia2019';                               // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
-
     //Recipients
     $mail->setFrom('fastechnology99@gmail.com', 'Star-Soft');
     $mail->addAddress($email);     // Add a recipient
-
     // Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
     //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Star-Soft Registro.';
-    $mail->Body    = 'Gracias por registrarte';
+    $mail->Body    = 'Te haz registrado exitosamente en Star-Soft. Tus datos estan seguros con nosotros :D. Tus datos para iniciar 
+    sesion son: Email: $email y Contraseña: $pass';
     $mail->send();
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 header("Location: ../../../index.php");
-}
-else { 
+} 
     echo "No se ha podido conectar con el servidor, ".'<a href="../../../index.php">Reintentar</a>';   }
     ?>
