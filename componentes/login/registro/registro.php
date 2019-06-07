@@ -20,5 +20,5 @@ $sql=$conexion->query("SELECT *from clientes where (email_cliente='$email') ");
         header("Location: ../errorregistro.php");
     }
     else{
-        $sql2=$conexion->query("INSERT into clientes values ('$nombre','$direccion',$phone,'$email','$pass',$tipo,$activacion)");
+        echo "Hola";
        ?>
