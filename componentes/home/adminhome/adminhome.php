@@ -11,7 +11,7 @@
 <style>
   body{
     
-  background-image: url(imGP/3.jpg);
+  background-image: url("imGP/3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
