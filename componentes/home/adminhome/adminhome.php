@@ -11,7 +11,7 @@
 <style>
   body{
     
-  background-image: url("imGP/3.jpg");
+  background-image: url("imGP/15.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,7 +24,7 @@
                 <br>
                 <br>
     
-                    <h1 align="center">Bienvenido Administrador</h1>
+                    <h1 align="center"><b>Bienvenido Administrador</b></h1>
 
                   
            
