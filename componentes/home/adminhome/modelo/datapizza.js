@@ -70,8 +70,8 @@ var guardarpizza = function (){
             mensajes(json_info);
             //limpiar();
            listar2();
-            $('#updatepizza').modal('hide');
-          //  $("#updatepizza .close").click();
+            //$('#updatepizza').modal('hide');
+            $("#updatepizza .close").click();
            // alertify.success('Actualizado Exitosamente!!!...');
         });
       
