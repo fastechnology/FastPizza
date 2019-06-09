@@ -69,6 +69,11 @@
                       </div>
                     </div>
                   </div>
+                  <div class="form-group">
+                          <label>Imagen: </label>
+                          <input type="text" name="imagen" id="imagen" class="form-control" autofocus placeholder="Url de la imagen" required require title="Ingresa una imagen en Url" min="15" max="1000">
+
+                        </div>
                 </div>
                 <br>
                 <div class="form-group" align="center">
@@ -157,6 +162,12 @@
                       </div>
                     </div>
                   </div>
+                  
+                  <div class="form-group">
+                          <label>Imagen: </label>
+                          <input type="text" name="imagen1" id="imagen1" class="form-control" autofocus placeholder="Url de la imagen" required require title="Ingresa una imagen en Url" min="15" max="1000">
+
+                        </div>
                 </div>
                 <br>
                 <div class="form-group" align="center">

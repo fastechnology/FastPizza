@@ -1,6 +1,6 @@
 
 
-//listar tipos pizzas//eliminar//actualizar
+//listar tipos pizzas//eliminar//actualizar///add
 $(document).on("ready", function(){
     listar2();
     guardarpizza();
@@ -47,7 +47,8 @@ var opc_editarpizza= function(tbody,table){
             ingredientes=$("#ingredientes1").val(data.ingredientes),
             tamano=$("#tamano1").val(data.tamano),
             porcion=$("#porcion1").val(data.porciones),
-            precio=$("#precio1").val(data.precio)
+            precio=$("#precio1").val(data.precio),
+            imagen= $("#imagen1").val(data.img)
             
             
     });
@@ -90,7 +91,8 @@ $(document).on("submit", ".formaddpizza", function(event){
         ingredientes: $("#ingredientes",$form).val(),
         tamano: $("#tamano",$form).val(),
         porcion: $("#porcion", $form).val(),
-        precio: $("#precio",$form).val()
+        precio: $("#precio",$form).val(),
+        imagen: $("#imagen",$form).val()
          }
         
     

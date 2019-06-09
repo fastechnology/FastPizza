@@ -11,11 +11,12 @@ $ingredientes= $_POST['ingredientes1'];
 $tamano= $_POST['tamano1'];
 $porcion= $_POST['porcion1'];
 $precio= $_POST['precio1'];
+$imagen=$_POST['imagen1'];
 
 
 	
 	$query=" UPDATE pizza SET  tipo='$nombrep', ingredientes='$ingredientes',
-	tamano='$tamano', porciones='$porcion', precio='$precio' WHERE codPizza='$codPizza'";
+	tamano='$tamano', porciones='$porcion', precio='$precio', img='$imagen' WHERE codPizza='$codPizza'";
 	$resultado= mysqli_query($conexion,$query);
 
 	verificar_resultado($resultado);

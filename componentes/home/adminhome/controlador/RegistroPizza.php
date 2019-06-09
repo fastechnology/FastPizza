@@ -8,6 +8,8 @@ require 'Conne.php';
 	$tamano= $_POST['tamano'];
 	$porcion= $_POST['porcion'];
 	$precio= $_POST['precio'];
+	$imagen= $_POST['imagen'];
+
 	
 
 	//comprobar si existe el usuario
@@ -32,7 +34,7 @@ require 'Conne.php';
 		}
 		else{
 	
-	$query="INSERT INTO pizza (codPizza, tipo, ingredientes, tamano, porciones, precio) VALUES ('$codPizza', '$nombrep', '$ingredientes','$tamano' ,'$porcion', '$precio')";
+	$query="INSERT INTO pizza (codPizza, tipo, ingredientes, tamano, porciones, precio, img) VALUES ('$codPizza', '$nombrep', '$ingredientes','$tamano' ,'$porcion', '$precio', '$imagen')";
 
 	$nusuario = $con->prepare($query);
 	
