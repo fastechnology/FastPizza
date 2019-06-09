@@ -12,8 +12,8 @@
   body{
   background-image: url(imGP/15.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: fixed;
+  background-position: relative;
+  background-size: cover;
 
   }
   </style>
