@@ -7,6 +7,18 @@ include '../adminhome.php';
 //include 'modaladdP.php';
 //include_once '../navar/navar.php';
 ?>
+<style>
+  body{
+  background-image: url("imGP/15.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  }
+  </style>
+<body>
+  
+
 
   <div class="container">
       <br>
@@ -40,7 +52,7 @@ include '../adminhome.php';
 			</div>			
 		</div>		
     </div>
-    
+    </body>    
     <?php include_once '../navar/footer.php'; ?>
     <script src="../modelo/datolista.js"></script>
     <script src="../modelo/UsuarioDao.js"></script>
