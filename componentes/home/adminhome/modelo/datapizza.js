@@ -12,7 +12,7 @@ var listar2= function(){
     },"destroy":true,
         "ajax":{
             "method":"POST",
-            "url":"http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/ControladorPizza.php"
+            "url":"../controlador/ControladorListaPizza.php"
         },
         "columns":[
             {"data" : "tipo"},
@@ -24,10 +24,11 @@ var listar2= function(){
        
         ]
     });
-    opc_editarpizza("#dt_pizzas tbody", table);
-    opc_eliminarpizza("#dt_pizzas tbody", table);
+    //opc_editarpizza("#dt_pizzas tbody", table);
+   // opc_eliminarpizza("#dt_pizzas tbody", table);
     
 }
+/*
 
 var opc_eliminarpizza= function(tbody,table){
     $(tbody).on("click","button.eliminarpizza", function () {
@@ -76,4 +77,4 @@ var guardarpizza = function (){
       
     });
     }
-    
+    */
