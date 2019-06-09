@@ -12,7 +12,7 @@ var listar2= function(){
     },"destroy":true,
         "ajax":{
             "method":"POST",
-            "url":"../controlador/ControladorPizza.php"
+            "url":"http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/ControladorPizza.php"
         },
         "columns":[
 
