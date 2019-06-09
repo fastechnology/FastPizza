@@ -19,17 +19,17 @@
   }
   </style>
 <body >
-    <div class="container" style="background-image:url(imGP/1.jpg)>
-        <div class="row d-flex justify-content-around mt-5">
-            <div class="card col-md-6 col-md-offset-6">
-                <article class="card-body">
-                    <h1>Bienvenido Administrador</h1>
+    <div class="container">
+                <br>
+                <br>
+                <br>
+    
+                    <h1 align="center">Bienvenido Administrador</h1>
 
                   
-                </article>
-            </div>
+           
         </div>
-    </div>
+  
     
 
    
