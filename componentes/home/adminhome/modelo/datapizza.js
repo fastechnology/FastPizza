@@ -124,8 +124,8 @@ $(document).on("submit", ".formaddpizza", function(event){
         $('input').val("");
         $('select').val("");
         //$('.addpersona').modal('hide');
-        $("#addpizzas .close").click();
-       // $ ('#addpizzas'). Modal ('hide');
+       // $("#addpizzas .close").click();
+        $ ('#addpizzas'). Modal ('hide');
        // $ ('#addpersona'). modal (). hide (); 
         //onSubmit="this.reset()"
         //$('#addpersona').hide();
