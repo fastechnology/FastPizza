@@ -178,7 +178,7 @@ $(document).on("submit", ".formulario_acceso", function(event){
         return false;   
     }
     $("#msg_error").hide();
-    var url_php = '../controlador/RegPizzaWsControlador.php';
+    var url_php = '../controlador/RegPizzasControlador.php';
 
     $.ajax({
         type:'POST',
