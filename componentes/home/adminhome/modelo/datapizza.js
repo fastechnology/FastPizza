@@ -70,10 +70,43 @@ var guardarpizza = function (){
             mensajes(json_info);
             //limpiar();
            listar2();
-            //$('#updatepizza').modal('hide');
+            $('#updatepizza').modal('hide');
           //  $("#updatepizza .close").click();
-            alertify.success('Actualizado Exitosamente!!!...');
+           // alertify.success('Actualizado Exitosamente!!!...');
         });
       
     });
     }
+
+
+
+    
+var mensajes = function( informacion){
+    var txt="", color="";
+    if (informacion.respuesta =="BIEN") {
+        //txt="<strong> <b>Bien!!!...</b></strong>  Se han guardado los cambios Correctamente...";
+        //color="#379911";
+        alertify.success("<strong> <b>Bien!!!...</b></strong>  Se han guardado los cambios Correctamente...");
+    }else if(informacion.respuesta == "ERROR"){
+        alertify.error("<strong> <b>Ha Ocurrido un ERROR!!!...</b></strong>  No se ejecuto la consulta Correctamente...");
+        //txt="<strong> <b>Ha Ocurrido un ERROR!!!...</b></strong>  No se ejecuto la consulta Correctamente...";
+
+        //color="#C9302C";
+    }else if(informacion.respuesta =="EXISTE"){
+        alertify.error("<strong> <b>Informacion!!!...</b></strong>  El usuario ya existe...");
+      
+       // txt="<strong> <b>Informacion!!!...</b></strong>  El usuario ya existe...";
+       // color="#5b94c5";
+
+    } else if(informacion.respuesta == "VACIO"){
+        alertify.error("<strong> <b>Advertencia!!!...</b></strong> Debe llenar Todos los Campos Solicitados...");
+       // txt="<strong> <b>Advertencia!!!...</b></strong> Debe llenar Todos los Campos Solicitados...";
+        //color="#ddb11d";
+    }
+
+    $(".msg_full").html(txt).css({"color": color});
+    $(".msg_full" ).fadeOut(5000, function (){
+        $(this).html("");
+        $(this).fadeIn(6000);
+    });
+}
