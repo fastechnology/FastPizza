@@ -11,7 +11,7 @@
 <html lang="es">
 <style>
   body{
-    background-image: url("imGp/4.jpg");
+    background-image: url("https://frases.top/wp-content/uploads/2018/04/frases-chidas.jpg");
   }
   </style>
 <body >
