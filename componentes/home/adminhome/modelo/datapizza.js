@@ -25,7 +25,7 @@ var listar2= function(){
         ]
     });
     //opc_editarpizza("#dt_pizzas tbody", table);
-   // opc_eliminarpizza("#dt_pizzas tbody", table);
+    opc_eliminarpizza("#dt_pizzas tbody", table);
     
 }
 /*
@@ -37,7 +37,7 @@ var opc_eliminarpizza= function(tbody,table){
         var eliminarpizza=$(".EliminarPizza #eliminarpizza").val(data.codPizza);
     });
 }
-
+    */
 
 var opc_editarpizza= function(tbody,table){
     $(tbody).on("click","button.editarpizza", function () {
@@ -68,13 +68,12 @@ var guardarpizza = function (){
              //console.log(json_info);
              
             mensajes(json_info);
-            limpiar();
-            listar2();
-            $('#updatepizza').modal('hide');
-            $("#updatepizza .close").click();
-            //alertify.success('Actualizado Exitosamente!!!...');
+            //limpiar();
+           listar2();
+            //$('#updatepizza').modal('hide');
+          //  $("#updatepizza .close").click();
+            alertify.success('Actualizado Exitosamente!!!...');
         });
       
     });
     }
-    */
