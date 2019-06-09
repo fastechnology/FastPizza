@@ -3,7 +3,7 @@ require_once '../navar/head.php';
   include 'modaladd.php';
  //require_once '../navar/navar.php';
  //include_once 'modaladd.php';
-include '../adminhome.php';
+//include '../adminhome.php';
 //include '../adminhome.php';
 ?>
 
@@ -24,7 +24,7 @@ include '../adminhome.php';
 				<h3 class="text-center"> <small class="mensaje"></small></h3>
 			</div>
 			<div class="table-responsive col-sm-12">		
-				<table id="dt_pizza" class="table table-bordered table-hover" cellspacing="0" width="100%" >
+				<table id="dt_pizzas" name="dt_pizzas" class="table table-bordered table-hover" cellspacing="0" width="100%" >
 					<thead class="bg-dark text-white">
 						<tr>								
                             <th>Codigo Pizza</th>	
@@ -34,6 +34,8 @@ include '../adminhome.php';
                             <th>Porciones</th>	
                             <th>Precio</th>
                             <th>Opcion</th>	
+
+                            <th></th>
            
               											
 						</tr>
@@ -43,4 +45,6 @@ include '../adminhome.php';
 		</div>		
     </div>
     
-   
+    <?php include_once '../navar/footer.php'; ?>
+    <script src="../modelo/datolista.js"></script>
+    <script src="../modelo/UsuarioDao.js"></script>

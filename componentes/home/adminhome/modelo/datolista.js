@@ -302,7 +302,7 @@ $(document).on("ready", function(){
     listar2();
 });
 var listar2= function(){
-    var table= $("#dt_pizza").DataTable({
+    var table= $("#dt_pizzas").DataTable({
         "language": {
       "url": "//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json"
     },"destroy":true,
@@ -322,8 +322,8 @@ var listar2= function(){
        
         ]
     });
-    opc_editarpizza("#dt_pizza tbody", table);
-    opc_eliminarpizza("#dt_pizza tbody", table);
+    opc_editarpizza("#dt_pizzas tbody", table);
+    opc_eliminarpizza("#dt_pizzas tbody", table);
     
 }
 
