@@ -20,7 +20,7 @@
             <div id="msg_full" align="center" class="alert alert-success form-control text-center form-group" role="alert" style="display: none"></div>
 
 
-            <form action="POST" class="formulario_pizzasadd" id="addpizzasadd" >
+            <form action="POST" class="formulario_pizzas" id="addpizzas" >
               <div class="form-group">
                 <div class="row">
                   <div class="col-md-12">

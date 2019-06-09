@@ -77,6 +77,77 @@ var guardarpizza = function (){
     });
     }
 
+//agregar pizza
+
+$(document).on("submit", ".formulario_pizzas", function(event){
+    event.preventDefault();
+    var $form = $(this);
+  
+  // $telf="/^[953]+[0-9]{7}$/";
+    var data_form = {
+        codPizza: $("#codPizza",$form).val(),
+        nombrep: $("#nombrep",$form).val(),
+        ingredientes: $("#ingredientes",$form).val(),
+        tamano: $("#tamano",$form).val(),
+        porcion: $("#porcion", $form).val(),
+        precio: $("#precio",$form).val()
+         }
+        
+    
+    $("#msg_error").hide();
+    var url_php = '../controlador/RegPizzasControlador.php';
+
+    $.ajax({
+        type:'POST',
+        url: url_php,
+        data: data_form,
+        dataType: 'json',
+        async: true,
+    })
+    .done(function ajaxDone(res){
+       console.log(res); 
+       if(res.error3 !== undefined){
+           // $("#msg_error1").text(res.error3).show();
+           alertify.error(res.error3);
+           // var notification = alertify.notify('sample', 'success ', 5, function(){  console.log('dismissed'); });
+            return false;
+       } 
+
+       if(res.redirect !== undefined){
+        window.location = res.redirect;
+    }
+    if(res.full3 !== undefined){
+      
+        //$("#msg_full").text(res.full3).show();
+        alertify.success('Registro  Exitoso');
+        //this.reset();
+        $('input').val("");
+        $('select').val("");
+        //$('.addpersona').modal('hide');
+        $("#addpizzas .close").click();
+       // $ ('#addpizzas'). Modal ('hide');
+       // $ ('#addpersona'). modal (). hide (); 
+        //onSubmit="this.reset()"
+        //$('#addpersona').hide();
+        listar2();
+        return false;
+   } 
+    })
+    .fail(function ajaxError(e){
+        console.log(e);
+    })
+    .always(function ajaxSiempre(){
+        console.log('Final de la llamada ajax.');
+    })
+    return false;
+});
+
+
+
+
+
+
+
 
 
 // eliminar pizza
