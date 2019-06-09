@@ -113,7 +113,7 @@ $(document).on("submit", ".formulario_acceso", function(event){
         return false;   
     }
     $("#msg_error").hide();
-    var url_php = '../controlador/RegPizzasControlador.php';
+    var url_php = '../controlador/RegPizzaasControlador.php';
 
     $.ajax({
         type:'POST',

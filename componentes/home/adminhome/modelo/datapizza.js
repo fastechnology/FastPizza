@@ -79,7 +79,7 @@ var guardarpizza = function (){
 
 //agregar pizza
 
-$(document).on("submit", "#agregarpizza", function(event){
+$(document).on("submit", ".formaddpizza", function(event){
     event.preventDefault();
     var $form = $(this);
   
@@ -95,7 +95,7 @@ $(document).on("submit", "#agregarpizza", function(event){
         
     
     $("#msg_error").hide();
-    var url_php = '../controlador/RegPizzasControlador.php';
+    var url_php = '../controlador/RegistroPizza.php';
 
     $.ajax({
         type:'POST',

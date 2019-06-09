@@ -19,7 +19,7 @@ include_once 'modalpizza.php';
             <div class="card col-md-15 col-md-offset-1 bg-light">
             <h2 align="center">Lista De Pizzas</h2>    
                 <article class="card-body">
-                <button type="submit" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpizzas">Nuevo Usuario</button>   
+                <button type="submit" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpizzas">Nueva Pizza</button>   
                
                 
 <div class="row" >

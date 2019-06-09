@@ -20,7 +20,7 @@
             <div id="msg_full" align="center" class="alert alert-success form-control text-center form-group" role="alert" style="display: none"></div>
 
 
-            <form action="POST" class="formulario_pizzas" id="agregarpizza" >
+            <form action="POST" class="formaddpizza"  >
               <div class="form-group">
                 <div class="row">
                   <div class="col-md-12">
@@ -74,7 +74,7 @@
                 <div class="form-group" align="center">
                   <!--<button type="submit"  class="btn btn-success">Registrar</button>-->
 
-                  <button type="submit" class="btn btn-success">Registrar</button>
+                  <button type="submit" class="btn btn-success" id="btnagregar">Registrar</button>
                   <button type="submit" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
 
 
