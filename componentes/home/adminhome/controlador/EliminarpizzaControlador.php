@@ -6,9 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	header("Content-Type: application/json");
 	$array_devolver=[];
 	$eliminarpizza= ($_POST['eliminarpizza']);
-            $query = "DELETE  FROM pizza WHERE codPizza =:codEliminar";
+            $query = "DELETE  FROM pizza WHERE idPizza =:idEliminar";
             $nusuario = $con->prepare($query);
-            $nusuario->bindParam(':codEliminar',$eliminarpizza,PDO::PARAM_INT);
+            $nusuario->bindParam(':idEliminar',$eliminarpizza,PDO::PARAM_INT);
 	
 	
  			$nusuario -> execute();
