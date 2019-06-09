@@ -25,19 +25,18 @@ var listar2= function(){
         ]
     });
     opc_editarpizza("#dt_pizzas tbody", table);
-   // opc_eliminarpizza("#dt_pizzas tbody", table);
+    opc_eliminarpizza("#dt_pizzas tbody", table);
     
 }
-/*
 
 var opc_eliminarpizza= function(tbody,table){
     $(tbody).on("click","button.eliminarpizza", function () {
         var data = table.row( $(this).parents("tr")).data();
          //console.log(data);
-        var eliminarpizza=$(".EliminarPizza #eliminarpizza").val(data.codPizza);
+        var eliminarpizza=$(".EliminarPizza #eliminarpizza").val(data.idPizza);
     });
 }
-    */
+    
 
 var opc_editarpizza= function(tbody,table){
     $(tbody).on("click","button.editarpizza", function () {
