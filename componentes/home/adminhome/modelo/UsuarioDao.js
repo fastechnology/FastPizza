@@ -95,7 +95,7 @@ $(document).on("submit", ".formulario_registro", function(event){
 });
 
 
-$(document).on("submit", ".formulario_pizzas", function(event){
+$(document).on("submit", ".formulario_pizzasadd", function(event){
     event.preventDefault();
     var $form = $(this);
   
