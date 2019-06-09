@@ -23,7 +23,7 @@ include 'modalpizza.php';
 			<div class="table-responsive col-sm-12">		
 				<table id="dt_pizzas" name="dt_pizzas" class="table table-bordered table-hover" cellspacing="0" width="100%" >
 					<thead class="bg-dark text-white">
-						<tr>								
+						<tr>						<th>id</th>	
                             <th>Codigo Pizza</th>	
                             <th>Tipo Pizzas</th>	
                             <th>Ingredientes</th>
