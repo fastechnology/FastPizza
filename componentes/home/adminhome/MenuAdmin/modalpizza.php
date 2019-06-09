@@ -47,8 +47,13 @@
 
                         <div class="form-group">
                           <label>Tamaño: </label>
-                          <input type="text" name="tamano" id="tamano" class="form-control" autofocus placeholder="Tamaño" required require onblur="this.value=this.value.toUpperCase()" pattern="[a-zA-Z\s]*.{5,150}" title="Ingresa el tamaño de la pizza" maxlength="150" minlength="5">
-
+                          <select name="tamano" id="tamano" class="form-control" required require>
+                            <option value="">Seleccionar</option>
+                            <option value="Chica">Chica</option>
+                            <option value="Media">Mediana</option>
+                            <option value="Grande">Grande</option>
+                            <option value="Familiar">Familiar</option>
+                          </select>
                         </div>
 
                       </div>
@@ -72,7 +77,7 @@
                 
                 </div>
                 <div class="form-group">
-                          <label>Imagen: </label>
+                          <label align="center" >Imagen: </label>
                           <input type="text" name="imagen" id="imagen" class="form-control" autofocus placeholder="Url de la imagen" required require title="Ingresa una imagen en Url" min="15" max="1000">
 
                         </div>
@@ -141,8 +146,13 @@
 
                         <div class="form-group">
                           <label>Tamaño: </label>
-                          <input type="text" name="tamano1" id="tamano1" class="form-control" autofocus placeholder="Tamaño" required require onblur="this.value=this.value.toUpperCase()" pattern="[a-zA-Z\s]*.{5,150}" title="Ingresa el tamaño de la pizza" maxlength="150" minlength="5">
-
+                          <select name="tamano1" id="tamano1" class="form-control" required require>
+                            <option value="">Seleccionar</option>
+                            <option value="Chica">Chica</option>
+                            <option value="Media">Mediana</option>
+                            <option value="Grande">Grande</option>
+                            <option value="Familiar">Familiar</option>
+                          </select>
                         </div>
 
                       </div>
@@ -167,7 +177,7 @@
                 
                 </div>
                 <div class="form-group">
-                          <label>Imagen: </label>
+                          <label align="center">Imagen: </label>
                           <input type="text" name="imagen1" id="imagen1" class="form-control" autofocus placeholder="Url de la imagen" required require title="Ingresa una imagen en Url" min="15" max="1000">
 
                         </div>
