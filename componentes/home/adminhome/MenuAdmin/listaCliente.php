@@ -7,7 +7,7 @@ include '../adminhome.php';
 //include 'modaladdP.php';
 //include_once '../navar/navar.php';
 ?>
-<style>
+<!-- <style>
   body{
   background-image: url(15.jpg);
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ include '../adminhome.php';
   background-size: cover;
 
   }
-  </style>
+  </style> -->
 <body>
   
 
