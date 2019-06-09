@@ -63,7 +63,7 @@ var guardarpizza = function (){
             url: "../controlador/ControladorActulizarPizza.php",
             data: frm
         }).done(function(info){
-            //console.log(info);
+            console.log(info);
             var json_info=JSON.parse(info);
              //console.log(json_info);
              
