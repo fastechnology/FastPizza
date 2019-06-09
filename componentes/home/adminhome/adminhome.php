@@ -10,7 +10,7 @@
 <html lang="es">
 <style>
   body{
-    
+    margin-top: 15px;
   background-image: url("imGP/15.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -19,19 +19,7 @@
   }
   </style>
 <body >
-    <div class="container">
-                <br>
-                <br>
-                <br>
-    
-                    <h1 align="center"><b>Bienvenido Administrador</b></h1>
-
-                  
-           
-        </div>
-  
-    
-
+   
    
 </body>
 <?php include_once 'navar/footer.php';     
