@@ -79,7 +79,7 @@ var guardarpizza = function (){
 
 //agregar pizza
 
-$(document).on("submit", ".formulario_pizzas", function(event){
+$(document).on("submit", "#agregarpizza", function(event){
     event.preventDefault();
     var $form = $(this);
   

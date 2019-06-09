@@ -1,8 +1,6 @@
 <?php 
 require 'Conne.php';
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	header("Content-Type: application/json");
 	$array_devolver=[];
 	$codPizza= $_POST['codPizza'];
 	$nombrep= $_POST['nombrep'];
@@ -37,13 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$query="INSERT INTO pizza (codPizza, tipo, ingredientes, tamano, porciones, precio) VALUES ('$codPizza', '$nombrep', '$ingredientes','$tamano' ,'$porcion', '$precio')";
 
 	$nusuario = $con->prepare($query);
-	/*$nusuario -> bindParam(':codPizza', $codPizza, PDO::PARAM_STR);
-	$nusuario -> bindParam(':nombrep',$nombrep, PDO::PARAM_STR);
-	$nusuario -> bindParam(':ingredientes', $ingredientes, PDO::PARAM_STR);
-	$nusuario -> bindParam(':tamaño',$tamaño , PDO::PARAM_STR);
-	$nusuario -> bindParam(':porcion',$porcion , PDO::PARAM_INT);
-	$nusuario -> bindParam(':precio',$precio, PDO::PARAM_INT);
-*/
+	
 	
  			$nusuario -> execute();
 
@@ -58,10 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 echo json_encode($array_devolver);
-}else{
-	exit("fuera del registro");
-}
-
-		 
+	 
 
  ?>
