@@ -13,11 +13,13 @@
   background-image: url(imGP/15.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: fixed;
 
   }
   </style>
 <body >
+    <br>
+        <br>
    
    
 </body>
