@@ -13,7 +13,7 @@
   background-image: url("imGP/15.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: fixed;
+  background-size: cover;
 
   }
   </style>
