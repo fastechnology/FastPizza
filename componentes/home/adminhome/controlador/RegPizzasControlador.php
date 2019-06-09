@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
  			$user_id = $con->lastInsertId();
              $_SESSION['id'] = (int) $user_id;
-             $array_devolver['redirect'] = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaPizza.php';
+             $array_devolver['redirect'] = 'http://localhost:8080/FastPizza/componentes/home/adminhome/MenuAdmin/listaPizza.php';
 		
 			 $array_devolver['full3']=true;
 			 $array_devolver['is_login3'] = true;

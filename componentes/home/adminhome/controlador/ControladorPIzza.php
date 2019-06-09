@@ -1,11 +1,10 @@
 <?php
  require '../controlador/Conne.php';
-// require_once 'Conne.php';
  //require_once '../navar/head.php';
  
 //$arreglo=[];
 $un=1;
-$query="SELECT * FROM pizza";
+$query="SELECT * FROM pizza  ORDER BY codPizza desc;";
 $resultado2 = $con -> prepare($query);
 	//$resultado2->bindParam(':ti_user',$un,PDO::PARAM_INT);
     $resultado2->execute();

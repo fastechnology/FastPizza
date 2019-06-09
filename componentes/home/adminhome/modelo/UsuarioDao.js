@@ -106,8 +106,7 @@ $(document).on("submit", ".formulario_pizzas", function(event){
         ingredientes: $("#ingredientes",$form).val(),
         tamano: $("#tamano",$form).val(),
         porcion: $("#porcion", $form).val(),
-        precio: $("#precio",$form).val(),
-        img: $("#img",$form).val()
+        precio: $("#precio",$form).val()
          }
         
     
@@ -141,8 +140,8 @@ $(document).on("submit", ".formulario_pizzas", function(event){
         $('input').val("");
         $('select').val("");
         //$('.addpersona').modal('hide');
-        //$("#addpizzas .close").click();
-        //$ ('#addpizzas'). Modal ('hide');
+        $("#addpizzas .close").click();
+        $ ('#addpizzas'). Modal ('hide');
        // $ ('#addpersona'). modal (). hide (); 
         //onSubmit="this.reset()"
         //$('#addpersona').hide();
@@ -179,7 +178,7 @@ $(document).on("submit", ".formulario_acceso", function(event){
         return false;   
     }
     $("#msg_error").hide();
-    var url_php = '../controlador/RegPizzasControlador.php';
+    var url_php = '../controlador/RegPizzaWsControlador.php';
 
     $.ajax({
         type:'POST',
@@ -375,8 +374,8 @@ $(document).on("submit", ".EliminarPizza", function(event){
        // $('input').val("");
         $('select').val("");
         //$('.addpersona').modal('hide');
-       // $("#modaleliminarpizza .close").click();
-        //$ ('#modaleliminarpizza'). Modal ('hide');
+        $("#modaleliminarpizza .close").click();
+       // $ ('#addpersona'). Modal ('hide');
        // $ ('#addpersona'). modal (). hide (); 
         //onSubmit="this.reset()"
         //$('#addpersona').hide();

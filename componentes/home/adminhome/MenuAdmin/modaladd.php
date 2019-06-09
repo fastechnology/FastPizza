@@ -611,7 +611,7 @@
   modal eliminar pizzza
 -->
 <div>
-  <form class="EliminarPizza" id="EliminarPizza1" action="POST">
+  <form class="EliminarPizza" action="POST">
 
     <input type="hidden" id="eliminarpizza" name="eliminarpizza" value="0">
     <!--<input type="hidden" id="opcion" name="opcion" value="eliminar">
@@ -632,7 +632,7 @@
             <!-- <input type="submit" class="btn btn-success"  id="EliUsuariobtn" data-dismiss="modal" name="EliUsuariobtn" value="Aceptar">  
             <input type="submit" class="btn btn-danger"  data-dismiss="modal" value="Cancelar"> 
             -->
-            <button type="submit" class="btn btn-success">Aceptar</button>
+            <button type="submit" class="btn btn-success" id="Elipizzabtn">Aceptar</button>
             <button type="submit" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
 
 
