@@ -107,28 +107,20 @@ $(document).on("submit", ".formaddpizza", function(event){
     .done(function ajaxDone(res){
        console.log(res); 
        if(res.error3 !== undefined){
-           // $("#msg_error1").text(res.error3).show();
+         
            alertify.error(res.error3);
-           // var notification = alertify.notify('sample', 'success ', 5, function(){  console.log('dismissed'); });
-            return false;
+             return false;
        } 
 
        if(res.redirect !== undefined){
         window.location = res.redirect;
     }
     if(res.full3 !== undefined){
-      
-        //$("#msg_full").text(res.full3).show();
+    
         alertify.success('Registro  Exitoso');
-        //this.reset();
         $('input').val("");
         $('select').val("");
-        //$('.addpersona').modal('hide');
-       // $("#addpizzas .close").click();
-        $ ('#addpizzas'). Modal ('hide');
-       // $ ('#addpersona'). modal (). hide (); 
-        //onSubmit="this.reset()"
-        //$('#addpersona').hide();
+        $("#addpizzas .close").click();
         listar2();
         return false;
    } 
