@@ -14,7 +14,7 @@
   }
   </style>
 <body >
-    <div class="container">
+    <div class="container" style="background-image:url(imGP/1.jpg)>
         <div class="row d-flex justify-content-around mt-5">
             <div class="card col-md-6 col-md-offset-6">
                 <article class="card-body">
