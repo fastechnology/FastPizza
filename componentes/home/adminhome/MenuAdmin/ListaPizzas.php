@@ -1,7 +1,7 @@
 <?php 
 require_once '../navar/head.php';
  //require_once '../navar/navar.php';
-include_once 'modaladd.php';
+include_once 'modalpizza.php';
  
 //include '../adminhome.php';
 //include '../adminhome.php';
@@ -19,6 +19,8 @@ include_once 'modaladd.php';
             <div class="card col-md-15 col-md-offset-1 bg-light">
             <h2 align="center">Lista De Pizzas</h2>    
                 <article class="card-body">
+                <button type="submit" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpizzas">Nuevo Usuario</button>   
+               
                 
 <div class="row" >
 		<div id="cuadro1" class="col-sm-12 col-md-12 col-lg-12">
