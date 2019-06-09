@@ -10,7 +10,12 @@
 <html lang="es">
 <style>
   body{
-    background-image: url("https://frases.top/wp-content/uploads/2018/04/frases-chidas.jpg");
+    
+  background-image: url(imGP/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   }
   </style>
 <body >
