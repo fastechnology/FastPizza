@@ -24,8 +24,8 @@ var listar2= function(){
        
         ]
     });
-    //opc_editarpizza("#dt_pizzas tbody", table);
-    opc_eliminarpizza("#dt_pizzas tbody", table);
+    opc_editarpizza("#dt_pizzas tbody", table);
+   // opc_eliminarpizza("#dt_pizzas tbody", table);
     
 }
 /*
