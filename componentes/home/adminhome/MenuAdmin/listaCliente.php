@@ -9,7 +9,7 @@ include '../adminhome.php';
 ?>
 <style>
   body{
-  background-image: url("../imGP/15.jpg");
+  background-image: url("15.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
