@@ -3,7 +3,7 @@ require_once '../navar/head.php';
  //require_once '../navar/navar.php';
 include_once 'modalpizza.php';
  
-//include '../adminhome.php';
+include '../adminhome.php';
 //include '../adminhome.php';
 ?>
 

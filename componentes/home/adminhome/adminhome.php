@@ -10,7 +10,7 @@
 <html lang="es">
 <style>
   body{
-  background-image: url("imGP/15.jpg");
+  background-image: url(imGP/15.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,4 +25,5 @@
     ?>
      <script src="./modelo/datolista.js"></script>
     <script src="./modelo/UsuarioDao.js"></script>
+    <script src="./modelo/datapizza.js"></script>
 </html>

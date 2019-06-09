@@ -17,8 +17,6 @@ include '../adminhome.php';
   }
   </style> -->
 
-
-
   <div class="container">
       <br>
    
@@ -51,7 +49,7 @@ include '../adminhome.php';
 			</div>			
 		</div>		
     </div>
-       
+      
     <?php include_once '../navar/footer.php'; ?>
     <script src="../modelo/datolista.js"></script>
     <script src="../modelo/UsuarioDao.js"></script>
