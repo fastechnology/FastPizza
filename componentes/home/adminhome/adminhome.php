@@ -10,11 +10,10 @@
 <html lang="es">
 <style>
   body{
-    margin-top: 15px;
   background-image: url("imGP/15.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: fixed;
 
   }
   </style>
