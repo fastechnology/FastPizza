@@ -1,10 +1,7 @@
 <?php 
 require_once '../navar/head.php';
-  include 'modaladd.php';
- //require_once '../navar/navar.php';
- //include_once 'modaladd.php';
-//include '../adminhome.php';
-//include '../adminhome.php';
+include 'modalpizza.php';
+ 
 ?>
 
   <div class="container">
@@ -33,11 +30,9 @@ require_once '../navar/head.php';
                             <th>Tamaño</th>	
                             <th>Porciones</th>	
                             <th>Precio</th>
-                            <th>Opcion</th>	
+                            <th></th>	
 
-                            <th></th>
-           
-              											
+      								
 						</tr>
 					</thead>					
 				</table>
@@ -46,5 +41,5 @@ require_once '../navar/head.php';
     </div>
     
     <?php include_once '../navar/footer.php'; ?>
-    <script src="../modelo/datolista.js"></script>
-    <script src="../modelo/UsuarioDao.js"></script>
+    <script src="../modelo/datapizza.js"></script>
+    
