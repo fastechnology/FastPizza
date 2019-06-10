@@ -38,10 +38,10 @@ nav.navbar {
             
                       <a  class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaCliente.php">Lista clientes</a>
                      </li>
-                     <li class="nav-item active mr-5">
+                     <li >
                       <a  class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/ListaPizzas.php">Lista Pizzas</a>
              </li>
-             <li class="nav-item active mr-5">
+             <li >
                       <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaVenta.php" >Lista Ventas</a>
                      </li>
            
