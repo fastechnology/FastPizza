@@ -1,7 +1,7 @@
 <?php 
     include_once 'navar/head.php';
     include_once 'navar/navar.php';
-   include 'MenuAdmin/listaCliente.php';
+   
  ?>
 
 
