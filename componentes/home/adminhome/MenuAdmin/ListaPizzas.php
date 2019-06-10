@@ -30,7 +30,7 @@ include '../adminhome.php';
 				<h3 class="text-center"> <small class="mensaje"></small></h3>
 			</div>
 			<div class="table-responsive col-sm-12">		
-				<table id="dt_pizzas" class="table table-bordered table-hover " cellspacing="0">
+				<table id="dt_pizzas" class="table table-bordered table-hover " cellspacing="0" width="100%" >
 					<thead class="bg-dark text-white" >
 						<tr>								
 						
