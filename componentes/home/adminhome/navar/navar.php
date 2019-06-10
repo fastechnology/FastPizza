@@ -9,6 +9,17 @@
 
 
 ?>
+<style>
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ 
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: #CC1414;
+}
+
+</style>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand mr-5 " href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/adminhome.php">FastPizzas</a>
