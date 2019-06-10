@@ -46,10 +46,10 @@
                           
                       <select  class="custom-select mr-sm-2 form-control" name="tam" id="tam" required>
                       <option value="" selected>Elegir tamaño</option>
-                      <option value="Chica">Chica 6 rebanadas $90</option>
-                      <option value="Mediana">Mediana 8 rebanadas $100</option>
-                      <option value="Grande">Grande 10 rebanadas $110</option>
-                      <option value="Familiar">Familiar 12 rebanadas $120</option>
+                      <option value="CH">Chica 6 rebanadas $90</option>
+                      <option value="MD">Mediana 8 rebanadas $100</option>
+                      <option value="GR">Grande 10 rebanadas $110</option>
+                      <option value="FA">Familiar 12 rebanadas $120</option>
                       </select><br><br>
                       <input type="number" class="form-control" name="cant" id="cant"
                        placeholder="Cantidad" min="1" max="20" 
