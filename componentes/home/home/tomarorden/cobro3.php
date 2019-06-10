@@ -39,5 +39,5 @@ echo "<br>______________________";
 <a href="finalizar.php" class="btn btn-outline-success btn-responsive btninter" >Terminar</a>
 <?php }
         else{
-            header("Location: ../../../../menuv.php");
+            header("Location: http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/home/menu/menuv.php");
         }

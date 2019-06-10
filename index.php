@@ -55,7 +55,7 @@
 <?php require 'componentes/login/registro/formularioregistrousuario.php' ?>
         <?php }
         else{
-            header("Location: componentes/home/home/menu/index.php");
+            header("Location: componentes/login/controlusuarios.php");
         }
         ?>
         <script type="text/javascript">
