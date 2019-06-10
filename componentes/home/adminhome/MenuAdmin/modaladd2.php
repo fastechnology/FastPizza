@@ -112,7 +112,7 @@ $query3 ="SELECT * FROM ventas";
           
           <div class="form-group">
                           <label>Precio: </label>
-                          <input type="number"  name="preciop" id="preciop" value="0" class="form-control" onChange="multiplicar();" autofocus placeholder="Precio" required require max="300" min="85">
+                          <input type="number"  name="preciop" id="preciop" value="" class="form-control" onChange="multiplicar();" autofocus placeholder="Precio" required require max="300" min="85">
 
                         </div>
           <div class="form-group">
