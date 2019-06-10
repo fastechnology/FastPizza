@@ -22,7 +22,7 @@ include '../adminhome.php';
    
      
         <div class="row d-flex justify-content-around mt-5">
-            <div class="card col-md-10 col-md-offset-1 bg-light">
+            <div class="card col-md-12 col-md-offset-1 bg-light">
            
                 <article class="card-body">
                 <h2 align="center">Lista Clientes</h2>
