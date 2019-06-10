@@ -93,7 +93,7 @@ var listar= function(){
             {"data" : "direccion_cliente"},
             {"data" : "telefono_cliente"},
             {"data" : "email_cliente"},
-            {"defaultContent":"<button type='button' class='editar btn btn-primary btn-xs 'data-toggle='modal' data-target='#upusuarios1'><i class='fa fa-pencil-square-o'></i></button> <button type='button' class='eliminar btn btn-danger btn-xs' data-toggle='modal' data-target='#modalEliminar' ><i class='fa fa-trash-o'></i></button>"}
+            {"defaultContent":"<button type='button' class='editar btn btn-primary'data-toggle='modal' data-target='#upusuarios1'><i class='fa fa-pencil-square-o'></i></button> <button type='button' class='eliminar btn btn-danger btn-xs' data-toggle='modal' data-target='#modalEliminar' ><i class='fa fa-trash-o'></i></button>"}
         ]
     });
     opc_editar("#dt_cliente tbody", table);
@@ -230,7 +230,7 @@ var listar1= function(){
             {"data" : "cantidad"},
             {"data" : "total"},
             {"data" : "estadopizza"},
-            {"defaultContent":"<button type='button' class='editarv btn btn-primary btn-xs 'data-toggle='modal' data-target='#ActulizarVenta1'><i class='fa fa-pencil-square-o'></i></button> <button type='button' class='eliminarv btn btn-danger btn-xs' data-toggle='modal' data-target='#modaleliminarventa' ><i class='fa fa-trash-o'></i></button>"}
+            {"defaultContent":"<button type='button' class='editarv btn btn-primary 'data-toggle='modal' data-target='#ActulizarVenta1'><i class='fa fa-pencil-square-o'></i></button>  <button type='button' class='eliminarv btn btn-danger' data-toggle='modal' data-target='#modaleliminarventa' ><i class='fa fa-trash-o'></i></button>"}
        
         ]
     });
