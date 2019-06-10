@@ -12,7 +12,7 @@
     
   background-image: url(imGP/15.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: absolute;
   background-size: cover;
 
   }
