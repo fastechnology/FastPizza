@@ -20,4 +20,6 @@
 <body >
  
 </body>
+<?php include_once 'navar/footer.php';     
+    ?>
 </html>
