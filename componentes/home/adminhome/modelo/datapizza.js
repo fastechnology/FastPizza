@@ -97,7 +97,7 @@ $(document).on("submit", ".formaddpizza", function(event){
         
     
     $("#msg_error").hide();
-    var url_php = '../controlador/RegistroPizza.php';
+    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/RegistroPizza.php';
 
     $.ajax({
         type:'POST',
