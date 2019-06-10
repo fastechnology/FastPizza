@@ -34,8 +34,8 @@
                       <form action="../tomarorden/buscarpizza.php" method="POST">
                       <input type="text" name="tipo" id="tipo" value="<?php echo $fila['codPizza']; ?>" style=visibility: hidden>
                       <p class="card-text">Ingredientes: <?php echo $fila['ingredientes']; ?></p>
-                      <div class="col-auto my-1">
-                        <select class="custom-select mr-sm-2 form-control" name="extra" id="extra">
+                      <div class="col-auto my-1  form-control">
+                        <select class="custom-select  form-control" name="extra" id="extra">
                         <option selected>Ingredientes Extras?</option>
                          <option value="1">Orilla Rellena de Queso $10</option>
                         <option value="2">Extra Queso $10</option>
@@ -51,7 +51,7 @@
                       <option value="Grande">Grande 10 rebanadas $110</option>
                       <option value="Familiar">Familiar 12 rebanadas $120</option>
                       </select><br><br>
-                      <input type="number" class="form-control-sm" name="cant" id="cant" placeholder="Cantidad" min="1" max="20" required title="no se permiten negativos!!!.. minimo 1, maximo 20">
+                      <input type="number" class="form-control" name="cant" id="cant" placeholder="Cantidad" min="1" max="20" required title="no se permiten negativos!!!.. minimo 1, maximo 20">
                       <br><br>
                       <button type="submit" class="btn btn-primary">Ordenar</button>
                       </form>
