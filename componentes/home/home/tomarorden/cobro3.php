@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<?php session_start(); if($_SESSION['user']!=""){ ?>
+<?php session_start(); if($_SESSION['orden']!=null){ ?>
 <?php
 include '../../../basededatos/conexion.php';
 include '../../../sesiones/datosuser.php';

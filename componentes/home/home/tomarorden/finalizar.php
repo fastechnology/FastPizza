@@ -1,5 +1,5 @@
 <?php
 session_start();
 $_SESSION['orden']=null;
-header('Location: ../menu/pizzas.php');
+header('Location: ../../../login/controlusuarios.php');
 ?>
