@@ -36,6 +36,9 @@
             <label for="pass">Contraseña:</label>
             <div class="form-group">
                 <input type="password" class="form-control" name="pass" id="pass" required>
+                <div class="input-group-append">
+            <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+          </div>
             </div>
             <br>
                     <input type="submit" value="Ingresar" class="btn btn-outline-primary">
@@ -53,3 +56,16 @@
         else{
             header("Location: componentes/home/home/menu/index.php");
         }
+        ?>
+        <script type="text/javascript">
+        function mostrarPassword(){
+                var cambio = document.getElementById("pass");
+                if(cambio.type == "password"){
+                    cambio.type = "text";
+                    $('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+                }else{
+                    cambio.type = "password";
+                    $('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+                }
+            } 
+            </script>
