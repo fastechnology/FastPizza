@@ -1,9 +1,6 @@
 <?php 
 require 'Conne.php';
-//require '../../../basededatos/conexion.php';
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	header("Content-Type: application/json");
 	$array_devolver=[];
 	$email= ($_POST['email']);
 	$nombre= $_POST['nombre'];
@@ -69,9 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 }
 echo json_encode($array_devolver);
-}else{
-	exit("fuera del registro");
-}
+
 
 		 
 
