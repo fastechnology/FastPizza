@@ -112,7 +112,7 @@ $query3 ="SELECT * FROM ventas";
           
           <div class="form-group">
                           <label>Precio: </label>
-                          <input type="number" readonly="readonly name="preciop" id="preciop" value="0" class="form-control" onChange="multiplicar();" autofocus placeholder="Precio" required require>
+                          <input type="number"  name="preciop" id="preciop" value="0" class="form-control" onChange="multiplicar();" autofocus placeholder="Precio" required require max="300" min="85">
 
                         </div>
           <div class="form-group">
@@ -184,8 +184,8 @@ $query3 ="SELECT * FROM ventas";
 
   <script type="text/javascript">
 //<![CDATA[
-var mostrarValor = function(x){
-document.getElementById('preciop').value=x;
+//var mostrarValor = function(x){
+//document.getElementById('preciop').value=x;
 }
 //]]>
 
