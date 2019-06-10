@@ -34,33 +34,19 @@ nav.navbar {
                   <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/adminhome.php">     Inicio <span class="sr-only">(current)</span></a>
               </li>
              
-              <li class="nav-item dropdown mr-5">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" 
-                  aria-expanded="false">    Cliente</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+              
+              <li class="nav-item active mr-5">
                       <a  class="dropdown-item" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaCliente.php">Lista clientes</a>
-                      <a  class="dropdown-item" style="cursor: pointer" data-toggle="modal" data-target="#addusuarios">Agregar Cliente</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown mr-5">
-                  <a class="nav-link dropdown-toggle " href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" 
-                  aria-expanded="false">    Pizzas</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                     </li>
+                     <li class="nav-item active mr-5">
                       <a  class="dropdown-item" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/ListaPizzas.php">Lista Pizzas</a>
-                      <a  class="dropdown-item" style="cursor: pointer" data-toggle="modal" data-target="#addpizzas">Agregar Pizza</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown mr-5">
-                  <a class="nav-link dropdown-toggle " href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" 
-                  aria-expanded="false">    Ventas</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+             </li>
+             <li class="nav-item active mr-5">
                       <a class="dropdown-item" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaVenta.php" >Lista Ventas</a>
-                      <!--<a class="dropdown-item" href="../Vista/login/Registro.php">Agregar Venta</a>-->
-                  </div>
-              </li>
+                     </li>
            
               
-          </ul>
+          
           <li class="nav-item form-inline my-1 my-lg-1">
                   <a class="nav-link " href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/sesiones/cerrarsesion.php">Cerrar Sesion</a>
               </li>

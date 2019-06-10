@@ -26,7 +26,7 @@
     <br>
     <div class="padre">
     <div class="hijo">
-    <h2>Inicio de Sesión</h2>
+    <h2>Bienvenidos</h2>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTZzBD90a3ted1H0qYV1xtJwdP9Ew0SFpGKRoEdusCeb7onbK"
             class="d-inline-block align-top" alt="">
         <form action="componentes/login/controllogin.php" method="POST">
