@@ -42,7 +42,7 @@ include '../adminhome.php';
                             <th>Telefono</th>	
                             <th>Email</th>	
                             <th>Opcion</th>
-                            <th></th>
+                           
 										
 						</tr>
 					</thead>					
