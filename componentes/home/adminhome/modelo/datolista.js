@@ -25,7 +25,7 @@ $("#form").on("submit", function(e){
         mensajes(json_info);
         limpiar();
         listar();
-        $('#upusuarios1').modal('hide');
+       // $('#upusuarios1').modal('hide');
         $("#upusuarios1 .close").click();
         //alertify.success('Actualizado Exitosamente!!!...');
     });
@@ -277,15 +277,19 @@ var guardarventa = function (){
              //console.log(json_info);
              
             mensajes(json_info);
-            //limpiar();
             listar1();
-            //$('#ActulizarVenta').modal('hide');
-           // $("#ActulizarVenta .close").click();
-            //alertify.success('Actualizado Exitosamente!!!...');
+            datoscero();
+           $("#ActulizarVenta .close").click();
         });
       
     });
     }
+
+
+var datoscero= function () {
+    $('input').val("");
+    $('select').val("");
+}
 
 
 

@@ -68,7 +68,7 @@ var guardarpizza = function (){
              //console.log(json_info);
              
             mensajes(json_info);
-            //limpiar();
+            datoscero();
            listar2();
             //$('#updatepizza').modal('hide');
             $("#updatepizza .close").click();
@@ -77,6 +77,11 @@ var guardarpizza = function (){
       
     });
     }
+    
+var datoscero= function () {
+    $('input').val("");
+    $('select').val("");
+}
 
 //agregar pizza
 
