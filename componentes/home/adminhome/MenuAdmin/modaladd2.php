@@ -186,7 +186,7 @@ $query3 ="SELECT * FROM ventas";
 //<![CDATA[
 //var mostrarValor = function(x){
 //document.getElementById('preciop').value=x;
-}
+//}
 //]]>
 
 
