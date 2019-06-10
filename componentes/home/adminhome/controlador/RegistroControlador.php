@@ -1,6 +1,7 @@
 <?php 
 require 'Conne.php';
-echo "hola";
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	header("Content-Type: application/json");
 	$array_devolver=[];
 	$email= ($_POST['email']);
 	$nombre= $_POST['nombre'];
@@ -66,6 +67,9 @@ echo "hola";
 
 }
 echo json_encode($array_devolver);
+}else{
+	exit("fuera del registro");
+}
 
 
 		 
