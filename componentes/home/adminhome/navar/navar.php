@@ -23,7 +23,7 @@ nav.navbar {
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <a class="navbar-brand" href="#">
-    <img src="../imGP/6.gif" width="40" height="40" alt="">
+    <img src="../imGP/6.gif" width="50" height="30" alt="">
   </a>
       <a class="navbar-brand mr-5 " href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/adminhome.php">FastPizzas</a>
       <button class="navbar-toggler d-lg-none  btn btn-success" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
