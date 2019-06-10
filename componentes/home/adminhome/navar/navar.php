@@ -34,9 +34,9 @@ nav.navbar {
                   <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/adminhome.php">     Inicio <span class="sr-only">(current)</span></a>
               </li>
              
-              
+              <li>
             
-                      <a  class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaCliente.php">Lista clientes</a>
+         <a  class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/listaCliente.php">Lista clientes</a>
                      </li>
                      <li >
                       <a  class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/MenuAdmin/ListaPizzas.php">Lista Pizzas</a>
@@ -47,7 +47,7 @@ nav.navbar {
            
               
           
-          <li class="nav-item form-inline my-1 my-lg-1">
+          <li >
                   <a class="nav-link " href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/sesiones/cerrarsesion.php">Cerrar Sesion</a>
               </li>
          <!-- <form class="form-inline my-2 my-lg-0">
