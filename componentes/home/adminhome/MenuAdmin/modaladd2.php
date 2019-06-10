@@ -130,10 +130,10 @@ $query3 ="SELECT * FROM ventas";
                         <div class="form-group">
             <label>Selecciona pizza: </label>
             <br>
-           <select name="tpizzap" id="tpizzap"  class="form-control" required require align="center" onchange="mostrarValor(this.value);">
+           <select name="tpizzap" id="tpizzap"  class="form-control" required require align="center">
            "<option selected value=''>Seleccionar</option>";
              <?php 
-            
+            // onchange="mostrarValor(this.value);"
              foreach ($consulta1 as $fin1) {
                
                echo "<option  value=".$fin1[2].">".$fin1[2]."</option>";
