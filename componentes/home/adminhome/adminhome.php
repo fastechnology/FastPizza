@@ -25,7 +25,7 @@
 </body>
 <?php include_once 'navar/footer.php';     
     ?>
-     <script src="../modelo/datolista.js"></script>
-    <script src="../modelo/UsuarioDao.js"></script>
-    <script src="../modelo/datapizza.js"></script>
+     <script src="./modelo/datolista.js"></script>
+    <script src="./modelo/UsuarioDao.js"></script>
+    <script src="./modelo/datapizza.js"></script>
 </html>

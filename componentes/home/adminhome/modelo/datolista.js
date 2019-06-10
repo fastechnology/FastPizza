@@ -269,7 +269,7 @@ var guardarventa = function (){
         var frm =$(this).serialize();
         $.ajax({
             method: "POST",
-            url: "http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/ControladorActulizarVenta.php",
+            url: "../controlador/ControladorActulizarVenta.php",
             data: frm
         }).done(function(info){
             console.log(info);

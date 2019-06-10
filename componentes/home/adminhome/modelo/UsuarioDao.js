@@ -44,7 +44,7 @@ $(document).on("submit", ".formulario_registro", function(event){
 
 
     $("#msg_error").hide();
-    var url_php = 'http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/home/adminhome/controlador/RegistroControlador.php';
+    var url_php = '../controlador/RegistroControlador.php';
 
     $.ajax({
         type:'POST',
