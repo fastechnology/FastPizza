@@ -34,8 +34,11 @@
                 <input type="email" class="form-control" name="user" id="user" required>
             </div>
             <label for="pass">Contraseña:</label>
-            <div class="form-group">
+            <div class="input-group">
                 <input type="password" class="form-control" name="pass" id="pass" required>
+                <div class="input-group-append">
+            <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+          </div>
             </div>
             <br>
                     <input type="submit" value="Ingresar" class="btn btn-outline-primary">
