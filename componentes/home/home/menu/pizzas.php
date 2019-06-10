@@ -29,7 +29,7 @@
                             width=100% heigth=100% >
                       </div>
                       <div class="content">
-                      <h4 class="card-title"><?php echo $fila['tipo'] ?></h4>
+                      <h4 class="card-title"><?php echo $fila['tipo'] ?> Hola Leydi</h4>
                       <img src="" width=100; heigth=100;>
                       <form action="../tomarorden/buscarpizza.php" method="POST">
                       <input type="text" name="tipo" id="tipo" value="<?php echo $fila['codPizza']; ?>" style=visibility: hidden>
