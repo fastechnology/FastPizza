@@ -118,7 +118,7 @@ require ('../../../navbar/index.php');
 <div class="btnsc">
 <br>
 <button type="submit" class="btn btn-outline-success btn-responsive btninter">Confirmar</button>
-<a href="../menu/pizzas.php" class="btn btn-outline-danger btn-responsive btninter">Cancelar</a>
+<a href="../menu/menuv.php" class="btn btn-outline-danger btn-responsive btninter">Cancelar</a>
 </div>
 </form>
 </div>
