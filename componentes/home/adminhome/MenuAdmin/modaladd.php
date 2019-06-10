@@ -63,6 +63,8 @@
                             <option value="">Seleccionar</option>
                             <option value="1">Administrador</option>
                             <option value="2">Cliente</option>
+                            <option value="3">Vendedor</option>
+
                           </select>
                         </div>
                       </div>
@@ -157,7 +159,7 @@
                             <option value="">Seleccionar</option>
                             <option value="1">Administrador</option>
                             <option value="2">Cliente</option>
-                            <option value="3">Cliente</option>
+                            <option value="3">Vendedor</option>
                           </select>
                         </div>
                         <div class="form-group">
