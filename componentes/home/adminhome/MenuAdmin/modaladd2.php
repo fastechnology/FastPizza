@@ -136,7 +136,7 @@ $query3 ="SELECT * FROM ventas";
             
              foreach ($consulta1 as $fin1) {
                
-               echo "<option  value=".$fin1[0].">".$fin1[5]."</option>";
+               echo "<option  value=".$fin1[0].">".$fin1[2]."</option>";
              } ?>
               
            </select>
