@@ -41,7 +41,8 @@ include '../adminhome.php';
                             <th>Direccion</th>
                             <th>Telefono</th>	
                             <th>Email</th>	
-                            <th>Opcion    </th>
+                            <th>Opcion</th>
+                            <th></th>
 										
 						</tr>
 					</thead>					
