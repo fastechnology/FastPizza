@@ -44,7 +44,8 @@ $(document).on("submit", ".formulario_registro", function(event){
 
 
     $("#msg_error").hide();
-    var url_php = '../controlador/RegistroControlador.php';
+    var url_php = '../controlador/RegistroControlador.php',
+        url_php= './controlador/RegistroControlador.php';
 
     $.ajax({
         type:'POST',
