@@ -230,7 +230,7 @@ var listar1= function(){
             {"data" : "cantidad"},
             {"data" : "total"},
             {"data" : "estadopizza"},
-            {"defaultContent":"<button type='button' class='editarv btn btn-primary 'data-toggle='modal' data-target='#ActulizarVenta1'><i class='fa fa-pencil-square-o'></i></button>  <button type='button' class='eliminarv btn btn-danger' data-toggle='modal' data-target='#modaleliminarventa' ><i class='fa fa-trash-o'></i></button>"}
+            {"defaultContent":"<button type='button' style='width:35px; height:30px' class='editarv btn btn-primary ' data-toggle='modal' data-target='#ActulizarVenta1'><i class='fa fa-pencil-square-o'></i></button> <button type='button' style='width:35px; height:30px' class='eliminarv btn btn-danger' data-toggle='modal' data-target='#modaleliminarventa' ><i class='fa fa-trash-o'></i></button>"}
        
         ]
     });
