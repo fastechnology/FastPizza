@@ -1,5 +1,4 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<?php require '../sesiones/datosuser.php'; ?>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,7 +28,7 @@
       </li>-->
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/sesiones/cerrarsesion.php" ><img src="https://www.pinclipart.com/picdir/middle/182-1821638_logout-icon-png-red-clipart.png" width=40px; heigth=40px;><?php echo $nombre; ?><span class="sr-only">(current)></span></a>
+      <a class="nav-link" href="http://app-26e39479-bc52-47d9-bd0f-14ddb6d466c3.cleverapps.io/componentes/sesiones/cerrarsesion.php" ><img src="https://www.pinclipart.com/picdir/middle/182-1821638_logout-icon-png-red-clipart.png" width=40px; heigth=40px;>Salir<span class="sr-only">(current)></span></a>
     </form>
   </div>
 </nav>
