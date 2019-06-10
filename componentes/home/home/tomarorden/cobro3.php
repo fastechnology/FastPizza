@@ -39,5 +39,5 @@ echo "<br>______________________";
 <a href="finalizar.php" class="btn btn-outline-success btn-responsive btninter" >Terminar</a>
 <?php }
         else{
-            header("Location: ../../../../index.php");
+            header("Location: ../../../../menuv.php");
         }
