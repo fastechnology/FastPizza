@@ -1,6 +1,6 @@
 <?php 
 require 'Conne.php';
-
+echo "hola";
 	$array_devolver=[];
 	$email= ($_POST['email']);
 	$nombre= $_POST['nombre'];
