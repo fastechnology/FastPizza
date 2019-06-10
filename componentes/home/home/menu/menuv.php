@@ -50,7 +50,9 @@
                       <option value="GR">Grande 10 rebanadas $110</option>
                       <option value="FA">Familiar 12 rebanadas $120</option>
                       </select><br><br>
-                      <input type="number" class="form-control-sm" name="cant" id="cant" placeholder="Cantidad" required>
+                      <input type="number" class="form-control-sm" name="cant" id="cant" 
+                      placeholder="Cantidad" min="1" max="20" 
+                      required title="no se permiten negativos!!!.. minimo 1, maximo 20" required>
                       <br><br>
                       <button type="submit" class="btn btn-primary">Ordenar</button>
                       </form>
